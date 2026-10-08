@@ -1,3 +1,0 @@
-# Railway build sozlamasi
-[phases.setup]
-nixPkgs = ["nodejs_22"]
