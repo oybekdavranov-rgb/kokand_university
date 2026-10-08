@@ -1,0 +1,107 @@
+<!--if:!page_home--><section class="sec sec-tight" aria-labelledby="cta-title">
+  <div class="wrap">
+    <div class="cta" data-reveal>
+      <div>
+        <h2 class="h2" id="cta-title"><span data-cms-id="cta.title1" data-cms-type="text">Kelajagingizni</span> <em data-cms-id="cta.title2" data-cms-type="text">bugun</em> <span data-cms-id="cta.title3" data-cms-type="text">tanlang</span></h2>
+        <p data-cms-id="cta.text" data-cms-type="text">14 ta ta’lim yo‘nalishi, xalqaro qo‘shma dasturlar va startaplar ekotizimi. Hujjatlar qabul platformasi orqali onlayn topshiriladi.</p>
+      </div>
+      <div class="cta-actions">
+        <!--if:has_admission_url--><a class="btn btn-light" href="{{set:admission_url}}" target="_blank" rel="noopener" data-magnetic><svg class="ic" aria-hidden="true"><use href="/img/icons.svg#grad"/></svg><span data-i18n="ui.apply">Hujjat topshirish</span></a><!--/if:has_admission_url-->
+        <a class="btn btn-glass" href="{{L}}/yonalishlar"><span data-i18n="ui.all_programmes">Barcha yo‘nalishlar</span><svg class="ic" aria-hidden="true"><use href="/img/icons.svg#arrow-right"/></svg></a>
+      </div>
+    </div>
+  </div>
+</section><!--/if:!page_home-->
+</main>
+
+<footer class="site-foot">
+  <div class="wrap">
+    <div class="foot-grid">
+      <div class="foot-brand">
+        <a class="brand" href="{{L}}/" aria-label="Kokand University"><svg class="brand-logo" viewBox="0 0 1606 486" aria-hidden="true"><use href="/img/brand/ku-brand.svg#logo"/></svg></a>
+        <p data-cms-id="footer.about" data-cms-type="text">Farg‘ona viloyatidagi birinchi nodavlat oliy ta’lim muassasasi. 2019-yildan buyon zamonaviy bilim, texnologiya va xalqaro imkoniyatlar maskani.</p>
+        <div class="foot-soc"><!--slot:socials--></div>
+      </div>
+      <div class="foot-col">
+        <h2 data-i18n="foot.university">Universitet</h2>
+        <ul>
+          <li><a href="{{L}}/universitet" data-i18n="nav.about">Biz haqimizda</a></li>
+          <li><a href="{{L}}/yonalishlar" data-i18n="nav.programmes">Yo‘nalishlar</a></li>
+          <!--if:has_structure_url--><li><a href="{{set:structure_url}}" target="_blank" rel="noopener" data-i18n="nav.structure">Tashkiliy tuzilma</a></li><!--/if:has_structure_url-->
+          <li><a href="{{L}}/hikoyalar" data-i18n="nav.startups">Startaplar</a></li>
+          <!--if:has_license_url--><li><a href="{{set:license_url}}" target="_blank" rel="noopener" data-i18n="nav.license">Litsenziya</a></li><!--/if:has_license_url-->
+          <!--if:has_campus_url--><li><a href="{{set:campus_url}}" target="_blank" rel="noopener" data-i18n="nav.campus">Talabalar shaharchasi</a></li><!--/if:has_campus_url-->
+        </ul>
+      </div>
+      <div class="foot-col">
+        <h2 data-i18n="foot.services">Xizmatlar</h2>
+        <ul>
+          <!--if:has_admission_url--><li><a href="{{set:admission_url}}" target="_blank" rel="noopener" data-i18n="nav.admission">Qabul platformasi</a></li><!--/if:has_admission_url-->
+          <!--if:has_hemis_student_url--><li><a href="{{set:hemis_student_url}}" target="_blank" rel="noopener" data-i18n="svc.hemis_student">Talaba HEMIS</a></li><!--/if:has_hemis_student_url-->
+          <!--if:has_hemis_teacher_url--><li><a href="{{set:hemis_teacher_url}}" target="_blank" rel="noopener" data-i18n="svc.hemis_teacher">O‘qituvchi HEMIS</a></li><!--/if:has_hemis_teacher_url-->
+          <!--if:has_library_url--><li><a href="{{set:library_url}}" target="_blank" rel="noopener" data-i18n="svc.library">Elektron kutubxona</a></li><!--/if:has_library_url-->
+          <!--if:has_rector_bot_url--><li><a href="{{set:rector_bot_url}}" target="_blank" rel="noopener" data-i18n="svc.rector_bot">Rektor qabul boti</a></li><!--/if:has_rector_bot_url-->
+          <!--if:has_vacancies_url--><li><a href="{{set:vacancies_url}}" target="_blank" rel="noopener" data-i18n="nav.vacancies">Vakansiyalar</a></li><!--/if:has_vacancies_url-->
+        </ul>
+      </div>
+      <div class="foot-col">
+        <h2 data-i18n="foot.contact">Aloqa</h2>
+        <ul>
+          <li><a href="{{set:map_url}}" target="_blank" rel="noopener">{{set:address}}</a></li>
+          <!--if:has_phone_1--><li><a href="tel:{{tel:phone_1}}">{{set:phone_1}}</a></li><!--/if:has_phone_1-->
+          <!--if:has_phone_2--><li><a href="tel:{{tel:phone_2}}">{{set:phone_2}}</a></li><!--/if:has_phone_2-->
+          <!--if:has_email--><li><a href="mailto:{{set:email}}">{{set:email}}</a></li><!--/if:has_email-->
+        </ul>
+      </div>
+    </div>
+    <div class="foot-bottom">
+      <span>© {{year}} Kokand University · {{set:legal_name}}</span>
+      <span><a href="{{L}}/yangiliklar" data-i18n="nav.news">Yangiliklar</a> · <a href="/sitemap.xml">Sitemap</a> · <a href="/admin" rel="nofollow" data-i18n="foot.staff">Xodimlar uchun</a></span>
+    </div>
+    <svg class="foot-word" viewBox="0 0 1021 386" aria-hidden="true"><use href="/img/brand/ku-brand.svg#word"/></svg>
+  </div>
+</footer>
+
+<button class="fab" type="button" data-assistant-open aria-haspopup="dialog" aria-controls="as-panel">
+  <span class="chat-av" aria-hidden="true"><svg class="ic"><use href="/img/icons.svg#sparkles"/></svg></span>
+  <span class="lbl" data-i18n="as.fab">Savol bering</span>
+</button>
+<dialog class="as-panel" id="as-panel" aria-label="Yordamchi" data-i18n-attr="aria-label:as.title">
+  <div class="chat" data-chat>
+    <div class="chat-head">
+      <span class="chat-av" aria-hidden="true"><svg class="ic"><use href="/img/icons.svg#sparkles"/></svg></span>
+      <div><b data-i18n="as.title">KU yordamchisi</b><small data-i18n="as.status">Rasmiy ma’lumotlar asosida</small></div>
+      <button class="icon-btn" type="button" data-assistant-close aria-label="Yopish" data-i18n-attr="aria-label:ui.close" style="margin-left:auto"><svg class="ic" aria-hidden="true"><use href="/img/icons.svg#close"/></svg></button>
+    </div>
+    <div class="chat-log" data-chat-log aria-live="polite"></div>
+    <div class="chat-chips" data-chat-chips>
+      <button type="button" data-i18n="as.q1">Kontrakt narxlari qancha?</button>
+      <button type="button" data-i18n="as.q2">Qanday yo‘nalishlar bor?</button>
+      <button type="button" data-i18n="as.q3">Hujjat qanday topshiriladi?</button>
+      <button type="button" data-i18n="as.q4">Xorijda o‘qish imkoniyati</button>
+      <button type="button" data-i18n="as.q5">Manzil va telefon</button>
+    </div>
+    <form class="chat-form" data-chat-form>
+      <label class="sr-only" for="as-input-panel" data-i18n="as.placeholder">Savolingizni yozing…</label>
+      <input id="as-input-panel" name="q" type="text" autocomplete="off" maxlength="300" placeholder="Savolingizni yozing…" data-i18n-attr="placeholder:as.placeholder">
+      <button type="submit" aria-label="Yuborish" data-i18n-attr="aria-label:as.send"><svg class="ic" aria-hidden="true"><use href="/img/icons.svg#send"/></svg></button>
+    </form>
+  </div>
+</dialog>
+
+<dialog class="palette" id="palette" aria-label="Qidiruv" data-i18n-attr="aria-label:ui.search">
+  <form class="pal-head" method="dialog" data-pal-form>
+    <svg class="ic" aria-hidden="true"><use href="/img/icons.svg#search"/></svg>
+    <input class="pal-input" type="search" name="q" autocomplete="off" placeholder="Yo‘nalish, yangilik yoki xizmatni qidiring…" aria-label="Qidiruv so‘rovi" data-i18n-attr="placeholder:ui.search_placeholder;aria-label:ui.search_query" data-pal-input>
+    <button class="icon-btn" type="button" data-pal-close aria-label="Yopish" data-i18n-attr="aria-label:ui.close"><svg class="ic" aria-hidden="true"><use href="/img/icons.svg#close"/></svg></button>
+  </form>
+  <div class="pal-body" data-pal-results role="listbox" aria-label="Natijalar" data-i18n-attr="aria-label:ui.results"></div>
+  <div class="pal-foot"><span><kbd>↑</kbd> <kbd>↓</kbd> <span data-i18n="ui.kbd_move">tanlash</span></span><span><kbd>Enter</kbd> <span data-i18n="ui.kbd_open">ochish</span></span><span><kbd>Esc</kbd> <span data-i18n="ui.kbd_close">yopish</span></span></div>
+</dialog>
+
+<div class="toast" role="status" aria-live="polite" data-toast></div>
+<!--boot-->
+<!--if:page_home--><script type="module" src="/js/ku-home.js"></script><!--/if:page_home-->
+<!--if:!page_offline--><script type="module" src="/js/ku-pages.js"></script><!--/if:!page_offline-->
+</body>
+</html>

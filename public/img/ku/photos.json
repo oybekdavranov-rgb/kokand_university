@@ -1,0 +1,121 @@
+{
+ "kampus": {
+  "w": 1200,
+  "h": 1600,
+  "ratio": 0.75,
+  "variants": [
+   {
+    "w": 640,
+    "file": "kampus-640.webp",
+    "bytes": 93372
+   },
+   {
+    "w": 1200,
+    "file": "kampus-1200.webp",
+    "bytes": 242964
+   }
+  ],
+  "jpg": "kampus.jpg",
+  "lqip": "data:image/webp;base64,UklGRqwAAABXRUJQVlA4IKAAAAAQBgCdASoUABsAPxF6sVIsJ6SisBgIAYAiCWwAnTKDx2Wx0v+BYQ6u0PMJGIVyAUluAdPKEtHw8QAA/mD+BofxKeIXbgvXcWxD1KJvA3hOBFA9VmPJAi5zLW2UXREMk4jtebCapRTuix+eaAp/7ft5mtStwFwOE88lBrVupwlO2aeQYbYBvZiXTbHi25EEdeQ3o34EUkPGC66eN8Ae4AAA"
+ },
+ "ai-hackathon": {
+  "w": 1280,
+  "h": 720,
+  "ratio": 1.7778,
+  "variants": [
+   {
+    "w": 640,
+    "file": "ai-hackathon-640.webp",
+    "bytes": 23516
+   },
+   {
+    "w": 1280,
+    "file": "ai-hackathon-1280.webp",
+    "bytes": 55896
+   }
+  ],
+  "jpg": "ai-hackathon.jpg",
+  "lqip": "data:image/webp;base64,UklGRlIAAABXRUJQVlA4IEYAAABQAgCdASoUAAsABABoJQBibB6RAfoV1S376YAA/vV74QIRMKn5poFZgmYRQrHSZ7yIFz7XiBXtgC58p52RIrmMJLSdgAAA"
+ },
+ "biznes-marafon": {
+  "w": 1280,
+  "h": 960,
+  "ratio": 1.3333,
+  "variants": [
+   {
+    "w": 640,
+    "file": "biznes-marafon-640.webp",
+    "bytes": 49948
+   },
+   {
+    "w": 1280,
+    "file": "biznes-marafon-1280.webp",
+    "bytes": 164392
+   }
+  ],
+  "jpg": "biznes-marafon.jpg",
+  "lqip": "data:image/webp;base64,UklGRmYAAABXRUJQVlA4IFoAAACwAwCdASoUAA8APxFyslCsJqSisAgBgCIJQBOgAoKoU7yiJoXcAADdl9BVkTAlaPHgoVPe0XKqluTEb7w+mPpapPpD3eDagHKwgCK64qdT9CeigE90JJ8AAAA="
+ },
+ "memorandum": {
+  "w": 1600,
+  "h": 1066,
+  "ratio": 1.5009,
+  "variants": [
+   {
+    "w": 640,
+    "file": "memorandum-640.webp",
+    "bytes": 20410
+   },
+   {
+    "w": 1280,
+    "file": "memorandum-1280.webp",
+    "bytes": 45830
+   },
+   {
+    "w": 1600,
+    "file": "memorandum-1600.webp",
+    "bytes": 59636
+   }
+  ],
+  "jpg": "memorandum.jpg",
+  "lqip": "data:image/webp;base64,UklGRmIAAABXRUJQVlA4IFYAAABQAwCdASoUAA0APxFysVCsJqSisAgBgCIJZgCdABDl8WG/EAD8hoj9Vi6VXmxv3zPFmByhcMfLdTgjCcWQMLinqAu8NqVCoqha8mYL22lvmK/a/S0AAA=="
+ },
+ "xalqaro-tashrif": {
+  "w": 960,
+  "h": 1280,
+  "ratio": 0.75,
+  "variants": [
+   {
+    "w": 640,
+    "file": "xalqaro-tashrif-640.webp",
+    "bytes": 44532
+   },
+   {
+    "w": 960,
+    "file": "xalqaro-tashrif-960.webp",
+    "bytes": 84834
+   }
+  ],
+  "jpg": "xalqaro-tashrif.jpg",
+  "lqip": "data:image/webp;base64,UklGRrIAAABXRUJQVlA4IKYAAACQBQCdASoUABsAPxF2sFCsJySisAgBgCIJbACxDSIyqAuSoLMN5xaV7BKiAAjZCsaAk3RcoAD+car3PT0WQMD/cKkdBb2CPcew0nBZZir11H/tAthkaFz226Z9yu5mealqXMf9o7SppxTGZ3x4qNMT8KKyiLUQcI6gUSQ3R8AVwy9avnx9zAOxc7LS9JIv6u5pNjoJY6szL8+gP1T6hZpBGiUCSAAA"
+ },
+ "it-laboratoriya": {
+  "w": 900,
+  "h": 1600,
+  "ratio": 0.5625,
+  "variants": [
+   {
+    "w": 640,
+    "file": "it-laboratoriya-640.webp",
+    "bytes": 62832
+   },
+   {
+    "w": 900,
+    "file": "it-laboratoriya-900.webp",
+    "bytes": 98078
+   }
+  ],
+  "jpg": "it-laboratoriya.jpg",
+  "lqip": "data:image/webp;base64,UklGRr4AAABXRUJQVlA4ILIAAACQBgCdASoUACQAPwlosFArpaSjMBqtUXAhCWwAnTKDsAcIQHVAUgExPsUMOQH0WvsraL2gJ1xbYXWvqsAAAP654wORic8l+0yPuXJIj6gR7fPA/Uy94KRgq6bbH/nEnR1hMAD4HYDBY0XCj0x9fhfjh0QbcwZ2Pq3b6EGD3PxCyfp+aEYhjQ0zhGkRFQQdzHqZLwlSGiOz/CCSmyuQRdpSBpQZ6Tzv3fjgeHMWIE6MWgAA"
+ }
+}

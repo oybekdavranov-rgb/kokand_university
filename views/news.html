@@ -1,0 +1,38 @@
+<!--#include "partials/head.html"-->
+<body>
+<!--#include "partials/header.html"-->
+<main id="main">
+<!--if:detail-->
+<div class="read-progress" data-read-progress aria-hidden="true"></div>
+<!--slot:article-->
+<section class="sec sec-tight" aria-labelledby="more-news">
+  <div class="wrap">
+    <header class="sec-head-row"><h2 class="h3" id="more-news" data-i18n="news.more">Boshqa yangiliklar</h2><a class="link-arrow" href="{{L}}/yangiliklar"><span data-i18n="home.news_all">Barcha yangiliklar</span><svg class="ic" aria-hidden="true"><use href="/img/icons.svg#arrow-right"/></svg></a></header>
+    <div class="grid g-3 cards"><!--slot:related--></div>
+  </div>
+</section>
+<!--/if:detail-->
+<!--if:list-->
+<section class="page-hero" data-cms-section="Yangiliklar · Hero" aria-labelledby="news-title">
+  <div class="hero-bg" aria-hidden="true"><i class="aur h1a"></i><i class="aur h2a"></i><i class="aur h3a"></i><i class="tiles"></i><i class="grain"></i></div>
+  <div class="wrap page-hero-in">
+    <nav class="crumbs" aria-label="Yo‘l" data-i18n-attr="aria-label:ui.breadcrumbs"><a href="{{L}}/" data-i18n="nav.home">Bosh sahifa</a><span aria-hidden="true">/</span><span data-i18n="nav.news">Yangiliklar</span></nav>
+    <p class="eyebrow" data-cms-id="news.eyebrow" data-cms-type="text">Yangiliklar</p>
+    <h1 class="h1 reveal-words" id="news-title" data-split><span data-cms-id="news.t1" data-cms-type="text">Universitet</span> <em data-cms-id="news.t2" data-cms-type="text">hayotidan</em> <span data-cms-id="news.t3" data-cms-type="text">lavhalar</span></h1>
+    <p class="lead" data-cms-id="news.lead" data-cms-type="text">Xalqaro hamkorlik, ilmiy tadbirlar, tanlovlar va talabalar hayoti — eng so‘nggi xabarlar.</p>
+  </div>
+</section>
+<section class="sec-tight" aria-label="Yangiliklar ro‘yxati" data-i18n-attr="aria-label:news.list">
+  <div class="wrap">
+    <div class="toolbar glass-2" data-filters>
+      <div class="toolbar-row">
+        <label class="field"><svg class="ic" aria-hidden="true"><use href="/img/icons.svg#search"/></svg><span class="sr-only" data-i18n="news.search">Yangiliklardan qidirish</span><input class="input" type="search" data-f-search placeholder="Yangiliklardan qidirish…" data-i18n-attr="placeholder:news.search_ph"></label>
+        <!--if:has_telegram_url--><a class="btn btn-glass" href="{{set:telegram_url}}" target="_blank" rel="noopener"><svg class="ic" aria-hidden="true"><use href="/img/icons.svg#telegram"/></svg><span data-i18n="news.tg">Telegram kanal</span></a><!--/if:has_telegram_url-->
+      </div>
+    </div>
+    <div class="grid g-3 cards" data-catalog><!--slot:list--></div>
+    <p class="empty" data-empty hidden data-i18n="ui.no_results">Hech narsa topilmadi. Filtrlarni o‘zgartirib ko‘ring.</p>
+  </div>
+</section>
+<!--/if:list-->
+<!--#include "partials/footer.html"-->

@@ -1,0 +1,31 @@
+<!--#include "partials/head.html"-->
+<body>
+<!--#include "partials/header.html"-->
+<main id="main">
+<section class="page-hero" data-cms-section="Galereya · Hero" aria-labelledby="gal-title">
+  <div class="hero-bg" aria-hidden="true"><i class="aur h1a"></i><i class="aur h2a"></i><i class="aur h3a"></i><i class="tiles"></i><i class="grain"></i></div>
+  <div class="wrap page-hero-in">
+    <nav class="crumbs" aria-label="Yo‘l" data-i18n-attr="aria-label:ui.breadcrumbs"><a href="{{L}}/" data-i18n="nav.home">Bosh sahifa</a><span aria-hidden="true">/</span><span data-i18n="nav.gallery">Galereya</span></nav>
+    <p class="eyebrow" data-cms-id="gal.eyebrow" data-cms-type="text">Galereya</p>
+    <h1 class="h1 reveal-words" id="gal-title" data-split><span data-cms-id="gal.t1" data-cms-type="text">Kampus</span> <em data-cms-id="gal.t2" data-cms-type="text">kadrlarda</em></h1>
+    <p class="lead" data-cms-id="gal.lead" data-cms-type="text">Universitet binosi, tadbirlar, xalqaro uchrashuvlar va talabalar hayotidan lavhalar.</p>
+  </div>
+</section>
+<section class="sec-tight" aria-label="Galereya" data-i18n-attr="aria-label:nav.gallery">
+  <div class="wrap">
+    <div class="toolbar glass-2" data-filters>
+      <div class="toolbar-row"><div class="chips-scroll"><button class="chip-btn" type="button" data-filter-cat="" aria-pressed="true" data-i18n="ui.all">Hammasi</button><!--slot:cats--></div></div>
+    </div>
+    <div class="masonry" data-gallery data-catalog><!--slot:grid--></div>
+    <p class="empty" data-empty hidden data-i18n="ui.no_results">Hech narsa topilmadi. Filtrlarni o‘zgartirib ko‘ring.</p>
+  </div>
+</section>
+<dialog class="lightbox" id="lightbox" aria-label="Rasm" data-i18n-attr="aria-label:ui.photo">
+  <div class="lb-top"><span class="lb-count" data-lb-count></span><button class="icon-btn" type="button" data-lb-close aria-label="Yopish" data-i18n-attr="aria-label:ui.close"><svg class="ic" aria-hidden="true"><use href="/img/icons.svg#close"/></svg></button></div>
+  <div class="lb-stage" data-lb-stage>
+    <button class="lb-nav lb-prev" type="button" data-lb-prev aria-label="Oldingi" data-i18n-attr="aria-label:ui.prev"><svg class="ic" aria-hidden="true"><use href="/img/icons.svg#chevron-left"/></svg></button>
+    <button class="lb-nav lb-next" type="button" data-lb-next aria-label="Keyingi" data-i18n-attr="aria-label:ui.next"><svg class="ic" aria-hidden="true"><use href="/img/icons.svg#chevron-right"/></svg></button>
+  </div>
+  <div class="lb-cap" data-lb-cap></div>
+</dialog>
+<!--#include "partials/footer.html"-->

@@ -1,0 +1,17 @@
+<!--#include "partials/head.html"-->
+<body>
+<!--#include "partials/header.html"-->
+<main id="main">
+<section class="oops" data-cms-section="Oflayn sahifa">
+  <div class="wrap oops-in">
+    <svg class="ic" aria-hidden="true" style="width:72px;height:72px;color:var(--accent)"><use href="/img/icons.svg#wifi-off"/></svg>
+    <h1 class="h2" data-cms-id="offline.title" data-cms-type="text">Internet aloqasi yo‘q</h1>
+    <p class="lead" data-cms-id="offline.text" data-cms-type="text">Siz oflayn rejimdasiz. Avval ochilgan sahifalar ishlayveradi; aloqa tiklanganda sahifa avtomatik yangilanadi.</p>
+    <div class="sec-foot" style="justify-content:center">
+      <button class="btn btn-accent" type="button" onclick="location.reload()"><svg class="ic" aria-hidden="true"><use href="/img/icons.svg#refresh"/></svg><span data-i18n="offline.retry">Qayta urinish</span></button>
+      <a class="btn btn-glass" href="{{L}}/"><span data-i18n="nav.home">Bosh sahifa</span></a>
+    </div>
+    <p class="src">{{set:phone_1}} · {{set:email}}</p>
+  </div>
+</section>
+<!--#include "partials/footer.html"-->

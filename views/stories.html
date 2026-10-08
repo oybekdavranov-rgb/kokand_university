@@ -1,0 +1,38 @@
+<!--#include "partials/head.html"-->
+<body>
+<!--#include "partials/header.html"-->
+<main id="main">
+<!--if:detail-->
+<div class="read-progress" data-read-progress aria-hidden="true"></div>
+<!--slot:article-->
+<section class="sec sec-tight" aria-labelledby="more-stories">
+  <div class="wrap">
+    <header class="sec-head-row"><h2 class="h3" id="more-stories" data-i18n="stories.more">Boshqa hikoyalar</h2><a class="link-arrow" href="{{L}}/hikoyalar"><span data-i18n="stories.all">Barcha hikoyalar</span><svg class="ic" aria-hidden="true"><use href="/img/icons.svg#arrow-right"/></svg></a></header>
+    <div class="grid g-3 cards"><!--slot:related--></div>
+  </div>
+</section>
+<!--/if:detail-->
+<!--if:list-->
+<section class="page-hero" data-cms-section="Hikoyalar · Hero" aria-labelledby="st-title">
+  <div class="hero-bg" aria-hidden="true"><i class="aur h1a"></i><i class="aur h2a"></i><i class="aur h3a"></i><i class="tiles"></i><i class="grain"></i></div>
+  <div class="wrap page-hero-in">
+    <nav class="crumbs" aria-label="Yo‘l" data-i18n-attr="aria-label:ui.breadcrumbs"><a href="{{L}}/" data-i18n="nav.home">Bosh sahifa</a><span aria-hidden="true">/</span><span data-i18n="nav.stories">Hikoyalar</span></nav>
+    <p class="eyebrow" data-cms-id="stories.eyebrow" data-cms-type="text">Hikoyalar</p>
+    <h1 class="h1 reveal-words" id="st-title" data-split><span data-cms-id="stories.t1" data-cms-type="text">G‘oyadan</span> <em data-cms-id="stories.t2" data-cms-type="text">natijagacha</em></h1>
+    <p class="lead" data-cms-id="stories.lead" data-cms-type="text">Talabalar startaplari, tanlovlardagi yutuqlar va universitet hayotidagi muhim voqealar haqida hikoyalar.</p>
+  </div>
+</section>
+<section class="sec-tight" aria-label="Hikoyalar ro‘yxati" data-i18n-attr="aria-label:stories.list">
+  <div class="wrap">
+    <div class="toolbar glass-2" data-filters>
+      <div class="toolbar-row">
+        <label class="field"><svg class="ic" aria-hidden="true"><use href="/img/icons.svg#search"/></svg><span class="sr-only" data-i18n="stories.search">Hikoyalardan qidirish</span><input class="input" type="search" data-f-search placeholder="Hikoyalardan qidirish…" data-i18n-attr="placeholder:stories.search_ph"></label>
+      </div>
+      <div class="toolbar-row"><div class="chips-scroll"><button class="chip-btn" type="button" data-filter-cat="" aria-pressed="true" data-i18n="ui.all">Hammasi</button><!--slot:cats--></div></div>
+    </div>
+    <div class="grid g-3 cards" data-catalog><!--slot:list--></div>
+    <p class="empty" data-empty hidden data-i18n="ui.no_results">Hech narsa topilmadi. Filtrlarni o‘zgartirib ko‘ring.</p>
+  </div>
+</section>
+<!--/if:list-->
+<!--#include "partials/footer.html"-->
