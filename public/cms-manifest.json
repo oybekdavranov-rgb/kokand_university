@@ -1,0 +1,2621 @@
+[
+ {
+  "id": "home.hero.video",
+  "type": "video",
+  "tag": "video",
+  "label": "Hero orqa fon videosi (bo‘sh — WebGL fon ko‘rinadi)",
+  "context": "Bosh sahifa · Hero",
+  "page": "Bosh sahifa",
+  "original": {
+   "src": "",
+   "mimeType": "",
+   "poster": "",
+   "autoplay": false,
+   "controls": false,
+   "muted": true,
+   "loop": true
+  }
+ },
+ {
+  "id": "home.hero.badge",
+  "type": "text",
+  "tag": "span",
+  "label": "Qabul 2026/2027 — onlayn platformada",
+  "context": "Bosh sahifa · Hero",
+  "page": "Bosh sahifa",
+  "original": {
+   "text": "Qabul 2026/2027 — onlayn platformada",
+   "text_ru": "Приём 2026/2027 — на онлайн-платформе",
+   "text_en": "Admissions 2026/2027 — apply online"
+  }
+ },
+ {
+  "id": "home.hero.t1",
+  "type": "text",
+  "tag": "span",
+  "label": "Kelajakni",
+  "context": "Bosh sahifa · Hero",
+  "page": "Bosh sahifa",
+  "original": {
+   "text": "Kelajakni",
+   "text_ru": "Стройте будущее",
+   "text_en": "Build your future"
+  }
+ },
+ {
+  "id": "home.hero.t2",
+  "type": "text",
+  "tag": "em",
+  "label": "Qo‘qonda",
+  "context": "Bosh sahifa · Hero",
+  "page": "Bosh sahifa",
+  "original": {
+   "text": "Qo‘qonda",
+   "text_ru": "в Коканде",
+   "text_en": "in Kokand"
+  }
+ },
+ {
+  "id": "home.hero.t3",
+  "type": "text",
+  "tag": "span",
+  "label": "quring",
+  "context": "Bosh sahifa · Hero",
+  "page": "Bosh sahifa",
+  "original": {
+   "text": "quring",
+   "text_ru": "",
+   "text_en": ""
+  }
+ },
+ {
+  "id": "home.hero.lead",
+  "type": "text",
+  "tag": "p",
+  "label": "Farg‘ona viloyatidagi birinchi nodavlat oliy ta’lim muassasasi. 14 ta ta’lim yo‘nalishi, xalqaro qo‘shma dasturlar va ta",
+  "context": "Bosh sahifa · Hero",
+  "page": "Bosh sahifa",
+  "original": {
+   "text": "Farg‘ona viloyatidagi birinchi nodavlat oliy ta’lim muassasasi. 14 ta ta’lim yo‘nalishi, xalqaro qo‘shma dasturlar va talabalar startaplari — barchasi bitta kampusda.",
+   "text_ru": "Первый негосударственный вуз Ферганской области. 14 направлений обучения, международные совместные программы и студенческие стартапы — всё в одном кампусе.",
+   "text_en": "The first private higher education institution in the Fergana region. 14 degree programmes, international joint programmes and student startups — all on one campus."
+  }
+ },
+ {
+  "id": "home.hero.meta1",
+  "type": "text",
+  "tag": "span",
+  "label": "2019-yildan",
+  "context": "Bosh sahifa · Hero",
+  "page": "Bosh sahifa",
+  "original": {
+   "text": "2019-yildan",
+   "text_ru": "С 2019 года",
+   "text_en": "Since 2019"
+  }
+ },
+ {
+  "id": "home.hero.meta2",
+  "type": "text",
+  "tag": "span",
+  "label": "Qo‘qon, Farg‘ona viloyati",
+  "context": "Bosh sahifa · Hero",
+  "page": "Bosh sahifa",
+  "original": {
+   "text": "Qo‘qon, Farg‘ona viloyati",
+   "text_ru": "Коканд, Ферганская область",
+   "text_en": "Kokand, Fergana Region"
+  }
+ },
+ {
+  "id": "home.hero.meta3",
+  "type": "text",
+  "tag": "span",
+  "label": "Davlat litsenziyasi",
+  "context": "Bosh sahifa · Hero",
+  "page": "Bosh sahifa",
+  "original": {
+   "text": "Davlat litsenziyasi",
+   "text_ru": "Государственная лицензия",
+   "text_en": "State-licensed"
+  }
+ },
+ {
+  "id": "home.hero.chip1",
+  "type": "text",
+  "tag": "b",
+  "label": "13 475",
+  "context": "Bosh sahifa · Hero",
+  "page": "Bosh sahifa",
+  "original": {
+   "text": "13 475",
+   "text_ru": "13 475",
+   "text_en": "13,475"
+  }
+ },
+ {
+  "id": "home.hero.chip1l",
+  "type": "text",
+  "tag": "span",
+  "label": "talaba",
+  "context": "Bosh sahifa · Hero",
+  "page": "Bosh sahifa",
+  "original": {
+   "text": "talaba",
+   "text_ru": "студентов",
+   "text_en": "students"
+  }
+ },
+ {
+  "id": "home.hero.chip2",
+  "type": "text",
+  "tag": "b",
+  "label": "14",
+  "context": "Bosh sahifa · Hero",
+  "page": "Bosh sahifa",
+  "original": {
+   "text": "14",
+   "text_ru": "14",
+   "text_en": "14"
+  }
+ },
+ {
+  "id": "home.hero.chip2l",
+  "type": "text",
+  "tag": "span",
+  "label": "yo‘nalish",
+  "context": "Bosh sahifa · Hero",
+  "page": "Bosh sahifa",
+  "original": {
+   "text": "yo‘nalish",
+   "text_ru": "направлений",
+   "text_en": "programmes"
+  }
+ },
+ {
+  "id": "home.hero.chip3",
+  "type": "text",
+  "tag": "b",
+  "label": "4",
+  "context": "Bosh sahifa · Hero",
+  "page": "Bosh sahifa",
+  "original": {
+   "text": "4",
+   "text_ru": "4",
+   "text_en": "4"
+  }
+ },
+ {
+  "id": "home.hero.chip3l",
+  "type": "text",
+  "tag": "span",
+  "label": "xalqaro hamkor",
+  "context": "Bosh sahifa · Hero",
+  "page": "Bosh sahifa",
+  "original": {
+   "text": "xalqaro hamkor",
+   "text_ru": "зарубежных партнёра",
+   "text_en": "partner universities"
+  }
+ },
+ {
+  "id": "home.marquee.1",
+  "type": "text",
+  "tag": "span",
+  "label": "Farg‘ona viloyatidagi birinchi nodavlat universitet",
+  "context": "Bosh sahifa · Hero",
+  "page": "Bosh sahifa",
+  "original": {
+   "text": "Farg‘ona viloyatidagi birinchi nodavlat universitet",
+   "text_ru": "Первый негосударственный университет Ферганской области",
+   "text_en": "The first private university in the Fergana region"
+  }
+ },
+ {
+  "id": "home.marquee.2",
+  "type": "text",
+  "tag": "span",
+  "label": "3 fakultet · 14 ta’lim yo‘nalishi",
+  "context": "Bosh sahifa · Hero",
+  "page": "Bosh sahifa",
+  "original": {
+   "text": "3 fakultet · 14 ta’lim yo‘nalishi",
+   "text_ru": "3 факультета · 14 направлений",
+   "text_en": "3 faculties · 14 programmes"
+  }
+ },
+ {
+  "id": "home.marquee.3",
+  "type": "text",
+  "tag": "span",
+  "label": "SolBridge · Woosong · Joongbu · TSI Riga",
+  "context": "Bosh sahifa · Hero",
+  "page": "Bosh sahifa",
+  "original": {
+   "text": "SolBridge · Woosong · Joongbu · TSI Riga",
+   "text_ru": "SolBridge · Woosong · Joongbu · TSI Riga",
+   "text_en": "SolBridge · Woosong · Joongbu · TSI Riga"
+  }
+ },
+ {
+  "id": "home.marquee.4",
+  "type": "text",
+  "tag": "span",
+  "label": "12 ta talabalar startapi",
+  "context": "Bosh sahifa · Hero",
+  "page": "Bosh sahifa",
+  "original": {
+   "text": "12 ta talabalar startapi",
+   "text_ru": "12 студенческих стартапов",
+   "text_en": "12 student startups"
+  }
+ },
+ {
+  "id": "home.marquee.5",
+  "type": "text",
+  "tag": "span",
+  "label": "Bakalavriat · Magistratura · Doktorantura",
+  "context": "Bosh sahifa · Hero",
+  "page": "Bosh sahifa",
+  "original": {
+   "text": "Bakalavriat · Magistratura · Doktorantura",
+   "text_ru": "Бакалавриат · Магистратура · Докторантура",
+   "text_en": "Bachelor’s · Master’s · Doctoral"
+  }
+ },
+ {
+  "id": "home.stats.eyebrow",
+  "type": "text",
+  "tag": "p",
+  "label": "Universitet raqamlarda",
+  "context": "Bosh sahifa · Raqamlar",
+  "page": "Bosh sahifa",
+  "original": {
+   "text": "Universitet raqamlarda",
+   "text_ru": "Университет в цифрах",
+   "text_en": "The university in numbers"
+  }
+ },
+ {
+  "id": "home.stats.t1",
+  "type": "text",
+  "tag": "span",
+  "label": "Raqamlar",
+  "context": "Bosh sahifa · Raqamlar",
+  "page": "Bosh sahifa",
+  "original": {
+   "text": "Raqamlar",
+   "text_ru": "Цифры",
+   "text_en": "The numbers"
+  }
+ },
+ {
+  "id": "home.stats.t2",
+  "type": "text",
+  "tag": "em",
+  "label": "o‘zi gapiradi",
+  "context": "Bosh sahifa · Raqamlar",
+  "page": "Bosh sahifa",
+  "original": {
+   "text": "o‘zi gapiradi",
+   "text_ru": "говорят сами",
+   "text_en": "speak for themselves"
+  }
+ },
+ {
+  "id": "home.stats.src",
+  "type": "text",
+  "tag": "p",
+  "label": "Manba: kokanduni.uz, 2026-yil oktabr",
+  "context": "Bosh sahifa · Raqamlar",
+  "page": "Bosh sahifa",
+  "original": {
+   "text": "Manba: kokanduni.uz, 2026-yil oktabr",
+   "text_ru": "Источник: kokanduni.uz, октябрь 2026 г.",
+   "text_en": "Source: kokanduni.uz, October 2026"
+  }
+ },
+ {
+  "id": "home.stat.students",
+  "type": "text",
+  "tag": "span",
+  "label": "13 475",
+  "context": "Bosh sahifa · Raqamlar",
+  "page": "Bosh sahifa",
+  "original": {
+   "text": "13 475",
+   "text_ru": "13 475",
+   "text_en": "13,475"
+  }
+ },
+ {
+  "id": "home.stat.students_l",
+  "type": "text",
+  "tag": "span",
+  "label": "talaba — saytning asosiy auditoriyasi",
+  "context": "Bosh sahifa · Raqamlar",
+  "page": "Bosh sahifa",
+  "original": {
+   "text": "talaba — saytning asosiy auditoriyasi",
+   "text_ru": "студентов — основная аудитория сайта",
+   "text_en": "students — the site’s core audience"
+  }
+ },
+ {
+  "id": "home.stat.alumni",
+  "type": "text",
+  "tag": "span",
+  "label": "6 180",
+  "context": "Bosh sahifa · Raqamlar",
+  "page": "Bosh sahifa",
+  "original": {
+   "text": "6 180",
+   "text_ru": "6 180",
+   "text_en": "6,180"
+  }
+ },
+ {
+  "id": "home.stat.alumni_l",
+  "type": "text",
+  "tag": "span",
+  "label": "bitiruvchi",
+  "context": "Bosh sahifa · Raqamlar",
+  "page": "Bosh sahifa",
+  "original": {
+   "text": "bitiruvchi",
+   "text_ru": "выпускников",
+   "text_en": "graduates"
+  }
+ },
+ {
+  "id": "home.stat.staff",
+  "type": "text",
+  "tag": "span",
+  "label": "356",
+  "context": "Bosh sahifa · Raqamlar",
+  "page": "Bosh sahifa",
+  "original": {
+   "text": "356",
+   "text_ru": "356",
+   "text_en": "356"
+  }
+ },
+ {
+  "id": "home.stat.staff_l",
+  "type": "text",
+  "tag": "span",
+  "label": "akademik va ma’muriy xodim",
+  "context": "Bosh sahifa · Raqamlar",
+  "page": "Bosh sahifa",
+  "original": {
+   "text": "akademik va ma’muriy xodim",
+   "text_ru": "академических и административных сотрудников",
+   "text_en": "academic and administrative staff"
+  }
+ },
+ {
+  "id": "home.stat.directions",
+  "type": "text",
+  "tag": "span",
+  "label": "14",
+  "context": "Bosh sahifa · Raqamlar",
+  "page": "Bosh sahifa",
+  "original": {
+   "text": "14",
+   "text_ru": "14",
+   "text_en": "14"
+  }
+ },
+ {
+  "id": "home.stat.directions_l",
+  "type": "text",
+  "tag": "span",
+  "label": "ta’lim yo‘nalishi",
+  "context": "Bosh sahifa · Raqamlar",
+  "page": "Bosh sahifa",
+  "original": {
+   "text": "ta’lim yo‘nalishi",
+   "text_ru": "направлений обучения",
+   "text_en": "degree programmes"
+  }
+ },
+ {
+  "id": "home.stat.joint",
+  "type": "text",
+  "tag": "span",
+  "label": "5",
+  "context": "Bosh sahifa · Raqamlar",
+  "page": "Bosh sahifa",
+  "original": {
+   "text": "5",
+   "text_ru": "5",
+   "text_en": "5"
+  }
+ },
+ {
+  "id": "home.stat.joint_l",
+  "type": "text",
+  "tag": "span",
+  "label": "qo‘shma ta’lim dasturi",
+  "context": "Bosh sahifa · Raqamlar",
+  "page": "Bosh sahifa",
+  "original": {
+   "text": "qo‘shma ta’lim dasturi",
+   "text_ru": "совместных программ",
+   "text_en": "joint programmes"
+  }
+ },
+ {
+  "id": "home.stat.phd",
+  "type": "text",
+  "tag": "span",
+  "label": "31",
+  "context": "Bosh sahifa · Raqamlar",
+  "page": "Bosh sahifa",
+  "original": {
+   "text": "31",
+   "text_ru": "31",
+   "text_en": "31"
+  }
+ },
+ {
+  "id": "home.stat.phd_l",
+  "type": "text",
+  "tag": "span",
+  "label": "doktorant",
+  "context": "Bosh sahifa · Raqamlar",
+  "page": "Bosh sahifa",
+  "original": {
+   "text": "doktorant",
+   "text_ru": "докторант",
+   "text_en": "doctoral students"
+  }
+ },
+ {
+  "id": "home.stat.researchers",
+  "type": "text",
+  "tag": "span",
+  "label": "88",
+  "context": "Bosh sahifa · Raqamlar",
+  "page": "Bosh sahifa",
+  "original": {
+   "text": "88",
+   "text_ru": "88",
+   "text_en": "88"
+  }
+ },
+ {
+  "id": "home.stat.researchers_l",
+  "type": "text",
+  "tag": "span",
+  "label": "mustaqil tadqiqotchi",
+  "context": "Bosh sahifa · Raqamlar",
+  "page": "Bosh sahifa",
+  "original": {
+   "text": "mustaqil tadqiqotchi",
+   "text_ru": "независимых исследователей",
+   "text_en": "independent researchers"
+  }
+ },
+ {
+  "id": "home.why.eyebrow",
+  "type": "text",
+  "tag": "p",
+  "label": "Ajralib turamiz",
+  "context": "Bosh sahifa · Nega KU (+ Universitet)",
+  "page": "Bosh sahifa",
+  "original": {
+   "text": "Ajralib turamiz",
+   "text_ru": "Наши отличия",
+   "text_en": "What sets us apart"
+  }
+ },
+ {
+  "id": "home.why.t1",
+  "type": "text",
+  "tag": "span",
+  "label": "Nega aynan",
+  "context": "Bosh sahifa · Nega KU (+ Universitet)",
+  "page": "Bosh sahifa",
+  "original": {
+   "text": "Nega aynan",
+   "text_ru": "Почему именно",
+   "text_en": "Why choose"
+  }
+ },
+ {
+  "id": "home.why.t2",
+  "type": "text",
+  "tag": "em",
+  "label": "Kokand University?",
+  "context": "Bosh sahifa · Nega KU (+ Universitet)",
+  "page": "Bosh sahifa",
+  "original": {
+   "text": "Kokand University?",
+   "text_ru": "Kokand University?",
+   "text_en": "Kokand University?"
+  }
+ },
+ {
+  "id": "home.why.lead",
+  "type": "text",
+  "tag": "p",
+  "label": "Biz faqat diplom emas, balki tajriba, aloqalar va o‘z loyihangizni boshlash imkoniyatini beramiz.",
+  "context": "Bosh sahifa · Nega KU",
+  "page": "Bosh sahifa",
+  "original": {
+   "text": "Biz faqat diplom emas, balki tajriba, aloqalar va o‘z loyihangizni boshlash imkoniyatini beramiz.",
+   "text_ru": "Мы даём не только диплом, но и опыт, связи и возможность запустить собственный проект.",
+   "text_en": "We offer more than a diploma: experience, connections and the chance to launch your own project."
+  }
+ },
+ {
+  "id": "home.prog.eyebrow",
+  "type": "text",
+  "tag": "p",
+  "label": "Ta’lim yo‘nalishlari",
+  "context": "Bosh sahifa · Yo‘nalishlar",
+  "page": "Bosh sahifa",
+  "original": {
+   "text": "Ta’lim yo‘nalishlari",
+   "text_ru": "Направления обучения",
+   "text_en": "Degree programmes"
+  }
+ },
+ {
+  "id": "home.prog.t1",
+  "type": "text",
+  "tag": "span",
+  "label": "O‘zingizga mos",
+  "context": "Bosh sahifa · Yo‘nalishlar",
+  "page": "Bosh sahifa",
+  "original": {
+   "text": "O‘zingizga mos",
+   "text_ru": "Найдите",
+   "text_en": "Find the programme"
+  }
+ },
+ {
+  "id": "home.prog.t2",
+  "type": "text",
+  "tag": "em",
+  "label": "yo‘nalishni toping",
+  "context": "Bosh sahifa · Yo‘nalishlar",
+  "page": "Bosh sahifa",
+  "original": {
+   "text": "yo‘nalishni toping",
+   "text_ru": "своё направление",
+   "text_en": "that fits you"
+  }
+ },
+ {
+  "id": "home.prog.lead",
+  "type": "text",
+  "tag": "p",
+  "label": "Bakalavriat va magistratura, kunduzgi va masofaviy ta’lim shakllari. Narxlar 2026/2027 o‘quv yili uchun.",
+  "context": "Bosh sahifa · Yo‘nalishlar",
+  "page": "Bosh sahifa",
+  "original": {
+   "text": "Bakalavriat va magistratura, kunduzgi va masofaviy ta’lim shakllari. Narxlar 2026/2027 o‘quv yili uchun.",
+   "text_ru": "Бакалавриат и магистратура, очная и дистанционная формы. Цены на 2026/2027 учебный год.",
+   "text_en": "Bachelor’s and master’s degrees, full-time and distance learning. Fees for the 2026/2027 academic year."
+  }
+ },
+ {
+  "id": "home.prog.src",
+  "type": "text",
+  "tag": "p",
+  "label": "Narxlar manbasi: kokanduni.uz/specializations. Aniq shartlar qabul platformasida e’lon qilinadi.",
+  "context": "Bosh sahifa · Yo‘nalishlar",
+  "page": "Bosh sahifa",
+  "original": {
+   "text": "Narxlar manbasi: kokanduni.uz/specializations. Aniq shartlar qabul platformasida e’lon qilinadi.",
+   "text_ru": "Источник цен: kokanduni.uz/specializations. Окончательные условия публикуются на платформе приёма.",
+   "text_en": "Fee source: kokanduni.uz/specializations. Final terms are published on the admissions portal."
+  }
+ },
+ {
+  "id": "home.intl.eyebrow",
+  "type": "text",
+  "tag": "p",
+  "label": "Xalqaro imkoniyatlar",
+  "context": "Bosh sahifa · Xalqaro",
+  "page": "Bosh sahifa",
+  "original": {
+   "text": "Xalqaro imkoniyatlar",
+   "text_ru": "Международные возможности",
+   "text_en": "International opportunities"
+  }
+ },
+ {
+  "id": "home.intl.t1",
+  "type": "text",
+  "tag": "span",
+  "label": "Diplomingiz",
+  "context": "Bosh sahifa · Xalqaro",
+  "page": "Bosh sahifa",
+  "original": {
+   "text": "Diplomingiz",
+   "text_ru": "Ваш диплом",
+   "text_en": "Your degree"
+  }
+ },
+ {
+  "id": "home.intl.t2",
+  "type": "text",
+  "tag": "em",
+  "label": "chegara bilmaydi",
+  "context": "Bosh sahifa · Xalqaro",
+  "page": "Bosh sahifa",
+  "original": {
+   "text": "chegara bilmaydi",
+   "text_ru": "без границ",
+   "text_en": "knows no borders"
+  }
+ },
+ {
+  "id": "home.intl.lead",
+  "type": "text",
+  "tag": "p",
+  "label": "Qo‘shma ta’lim dasturlarida talabalar 4-semestrda ariza topshirib, o‘qishni Janubiy Koreya yoki Latviyadagi hamkor unive",
+  "context": "Bosh sahifa · Xalqaro",
+  "page": "Bosh sahifa",
+  "original": {
+   "text": "Qo‘shma ta’lim dasturlarida talabalar 4-semestrda ariza topshirib, o‘qishni Janubiy Koreya yoki Latviyadagi hamkor universitetda 2 yil davom ettiradi.",
+   "text_ru": "В совместных программах студенты подают заявку на 4-м семестре и продолжают обучение два года в университете-партнёре в Южной Корее или Латвии.",
+   "text_en": "In joint programmes, students apply in their 4th semester and continue for two years at a partner university in South Korea or Latvia."
+  }
+ },
+ {
+  "id": "home.intl.p1",
+  "type": "text",
+  "tag": "h3",
+  "label": "SolBridge International School of Business",
+  "context": "Bosh sahifa · Xalqaro (+ Universitet)",
+  "page": "Bosh sahifa",
+  "original": {
+   "text": "SolBridge International School of Business",
+   "text_ru": "SolBridge International School of Business",
+   "text_en": "SolBridge International School of Business"
+  }
+ },
+ {
+  "id": "home.intl.p1d",
+  "type": "text",
+  "tag": "p",
+  "label": "AACSB akkreditatsiyasiga ega biznes maktabi. Iqtisodiyot, moliya va turizm yo‘nalishlari.",
+  "context": "Bosh sahifa · Xalqaro (+ Universitet)",
+  "page": "Bosh sahifa",
+  "original": {
+   "text": "AACSB akkreditatsiyasiga ega biznes maktabi. Iqtisodiyot, moliya va turizm yo‘nalishlari.",
+   "text_ru": "Бизнес-школа с аккредитацией AACSB. Экономика, финансы и туризм.",
+   "text_en": "AACSB-accredited business school. Economics, finance and tourism."
+  }
+ },
+ {
+  "id": "home.intl.p2",
+  "type": "text",
+  "tag": "h3",
+  "label": "Woosong University",
+  "context": "Bosh sahifa · Xalqaro (+ Universitet)",
+  "page": "Bosh sahifa",
+  "original": {
+   "text": "Woosong University",
+   "text_ru": "Woosong University",
+   "text_en": "Woosong University"
+  }
+ },
+ {
+  "id": "home.intl.p2d",
+  "type": "text",
+  "tag": "p",
+  "label": "Janubiy Koreya. Iqtisodiyot, moliya va turizm yo‘nalishlari.",
+  "context": "Bosh sahifa · Xalqaro (+ Universitet)",
+  "page": "Bosh sahifa",
+  "original": {
+   "text": "Janubiy Koreya. Iqtisodiyot, moliya va turizm yo‘nalishlari.",
+   "text_ru": "Южная Корея. Экономика, финансы и туризм.",
+   "text_en": "South Korea. Economics, finance and tourism."
+  }
+ },
+ {
+  "id": "home.intl.p3",
+  "type": "text",
+  "tag": "h3",
+  "label": "Joongbu University",
+  "context": "Bosh sahifa · Xalqaro (+ Universitet)",
+  "page": "Bosh sahifa",
+  "original": {
+   "text": "Joongbu University",
+   "text_ru": "Joongbu University",
+   "text_en": "Joongbu University"
+  }
+ },
+ {
+  "id": "home.intl.p3d",
+  "type": "text",
+  "tag": "p",
+  "label": "Janubiy Koreyaning Top-100 universitetlari qatorida. Til talabi: TOPIK 3.",
+  "context": "Bosh sahifa · Xalqaro (+ Universitet)",
+  "page": "Bosh sahifa",
+  "original": {
+   "text": "Janubiy Koreyaning Top-100 universitetlari qatorida. Til talabi: TOPIK 3.",
+   "text_ru": "Входит в топ-100 университетов Южной Кореи. Языковое требование: TOPIK 3.",
+   "text_en": "Among South Korea’s top 100 universities. Language requirement: TOPIK 3."
+  }
+ },
+ {
+  "id": "home.intl.p4",
+  "type": "text",
+  "tag": "h3",
+  "label": "Transport and Telecommunication Institute",
+  "context": "Bosh sahifa · Xalqaro (+ Universitet)",
+  "page": "Bosh sahifa",
+  "original": {
+   "text": "Transport and Telecommunication Institute",
+   "text_ru": "Transport and Telecommunication Institute",
+   "text_en": "Transport and Telecommunication Institute"
+  }
+ },
+ {
+  "id": "home.intl.p4d",
+  "type": "text",
+  "tag": "p",
+  "label": "Riga, Latviya. Kompyuter injiniringi yo‘nalishi.",
+  "context": "Bosh sahifa · Xalqaro (+ Universitet)",
+  "page": "Bosh sahifa",
+  "original": {
+   "text": "Riga, Latviya. Kompyuter injiniringi yo‘nalishi.",
+   "text_ru": "Рига, Латвия. Компьютерная инженерия.",
+   "text_en": "Riga, Latvia. Computer engineering."
+  }
+ },
+ {
+  "id": "home.intl.req1",
+  "type": "text",
+  "tag": "li",
+  "label": "GPA ≥ 3.37",
+  "context": "Bosh sahifa · Xalqaro",
+  "page": "Bosh sahifa",
+  "original": {
+   "text": "GPA ≥ 3.37",
+   "text_ru": "GPA ≥ 3.37",
+   "text_en": "GPA ≥ 3.37"
+  }
+ },
+ {
+  "id": "home.intl.req2",
+  "type": "text",
+  "tag": "li",
+  "label": "IELTS 6.0+",
+  "context": "Bosh sahifa · Xalqaro",
+  "page": "Bosh sahifa",
+  "original": {
+   "text": "IELTS 6.0+",
+   "text_ru": "IELTS 6.0+",
+   "text_en": "IELTS 6.0+"
+  }
+ },
+ {
+  "id": "home.intl.req3",
+  "type": "text",
+  "tag": "li",
+  "label": "Ariza: 4-semestr (mart–aprel)",
+  "context": "Bosh sahifa · Xalqaro",
+  "page": "Bosh sahifa",
+  "original": {
+   "text": "Ariza: 4-semestr (mart–aprel)",
+   "text_ru": "Заявка: 4-й семестр (март–апрель)",
+   "text_en": "Apply: 4th semester (March–April)"
+  }
+ },
+ {
+  "id": "home.st.eyebrow",
+  "type": "text",
+  "tag": "p",
+  "label": "Innovatsiyalar",
+  "context": "Bosh sahifa · Startaplar",
+  "page": "Bosh sahifa",
+  "original": {
+   "text": "Innovatsiyalar",
+   "text_ru": "Инновации",
+   "text_en": "Innovation"
+  }
+ },
+ {
+  "id": "home.st.t1",
+  "type": "text",
+  "tag": "span",
+  "label": "Talaba g‘oyasidan —",
+  "context": "Bosh sahifa · Startaplar",
+  "page": "Bosh sahifa",
+  "original": {
+   "text": "Talaba g‘oyasidan —",
+   "text_ru": "От студенческой идеи —",
+   "text_en": "From a student idea —"
+  }
+ },
+ {
+  "id": "home.st.t2",
+  "type": "text",
+  "tag": "em",
+  "label": "startapgacha",
+  "context": "Bosh sahifa · Startaplar",
+  "page": "Bosh sahifa",
+  "original": {
+   "text": "startapgacha",
+   "text_ru": "до стартапа",
+   "text_en": "to a startup"
+  }
+ },
+ {
+  "id": "home.st.lead",
+  "type": "text",
+  "tag": "p",
+  "label": "Universitet startaplari respublika va xalqaro tanlovlarda sovrinli o‘rinlarni egallamoqda.",
+  "context": "Bosh sahifa · Startaplar",
+  "page": "Bosh sahifa",
+  "original": {
+   "text": "Universitet startaplari respublika va xalqaro tanlovlarda sovrinli o‘rinlarni egallamoqda.",
+   "text_ru": "Стартапы университета занимают призовые места на республиканских и международных конкурсах.",
+   "text_en": "University startups are winning prizes at national and international competitions."
+  }
+ },
+ {
+  "id": "home.news.eyebrow",
+  "type": "text",
+  "tag": "p",
+  "label": "Yangiliklar",
+  "context": "Bosh sahifa · Yangiliklar",
+  "page": "Bosh sahifa",
+  "original": {
+   "text": "Yangiliklar",
+   "text_ru": "Новости",
+   "text_en": "News"
+  }
+ },
+ {
+  "id": "home.news.t1",
+  "type": "text",
+  "tag": "span",
+  "label": "Universitet",
+  "context": "Bosh sahifa · Yangiliklar",
+  "page": "Bosh sahifa",
+  "original": {
+   "text": "Universitet",
+   "text_ru": "Из жизни",
+   "text_en": "Life at"
+  }
+ },
+ {
+  "id": "home.news.t2",
+  "type": "text",
+  "tag": "em",
+  "label": "hayotidan",
+  "context": "Bosh sahifa · Yangiliklar",
+  "page": "Bosh sahifa",
+  "original": {
+   "text": "hayotidan",
+   "text_ru": "университета",
+   "text_en": "the university"
+  }
+ },
+ {
+  "id": "home.gal.eyebrow",
+  "type": "text",
+  "tag": "p",
+  "label": "Galereya",
+  "context": "Bosh sahifa · Galereya",
+  "page": "Bosh sahifa",
+  "original": {
+   "text": "Galereya",
+   "text_ru": "Галерея",
+   "text_en": "Gallery"
+  }
+ },
+ {
+  "id": "home.gal.t1",
+  "type": "text",
+  "tag": "span",
+  "label": "Kampus",
+  "context": "Bosh sahifa · Galereya",
+  "page": "Bosh sahifa",
+  "original": {
+   "text": "Kampus",
+   "text_ru": "Кампус",
+   "text_en": "Campus"
+  }
+ },
+ {
+  "id": "home.gal.t2",
+  "type": "text",
+  "tag": "em",
+  "label": "kadrlarda",
+  "context": "Bosh sahifa · Galereya",
+  "page": "Bosh sahifa",
+  "original": {
+   "text": "kadrlarda",
+   "text_ru": "в кадрах",
+   "text_en": "in pictures"
+  }
+ },
+ {
+  "id": "home.org.eyebrow",
+  "type": "text",
+  "tag": "p",
+  "label": "Tashkiliy tuzilma",
+  "context": "Bosh sahifa · Tuzilma",
+  "page": "Bosh sahifa",
+  "original": {
+   "text": "Tashkiliy tuzilma",
+   "text_ru": "Организационная структура",
+   "text_en": "Organisational structure"
+  }
+ },
+ {
+  "id": "home.org.t1",
+  "type": "text",
+  "tag": "span",
+  "label": "Kim nimaga mas’ul —",
+  "context": "Bosh sahifa · Tuzilma",
+  "page": "Bosh sahifa",
+  "original": {
+   "text": "Kim nimaga mas’ul —",
+   "text_ru": "Кто за что отвечает —",
+   "text_en": "Who is responsible for what —"
+  }
+ },
+ {
+  "id": "home.org.t2",
+  "type": "text",
+  "tag": "em",
+  "label": "bir qarashda",
+  "context": "Bosh sahifa · Tuzilma",
+  "page": "Bosh sahifa",
+  "original": {
+   "text": "bir qarashda",
+   "text_ru": "с первого взгляда",
+   "text_en": "at a glance"
+  }
+ },
+ {
+  "id": "home.org.lead",
+  "type": "text",
+  "tag": "p",
+  "label": "Rahbariyat, departamentlar, fakultetlar, kafedralar va markazlar — a’zolari va aloqa ma’lumotlari bilan alohida portalda",
+  "context": "Bosh sahifa · Tuzilma",
+  "page": "Bosh sahifa",
+  "original": {
+   "text": "Rahbariyat, departamentlar, fakultetlar, kafedralar va markazlar — a’zolari va aloqa ma’lumotlari bilan alohida portalda.",
+   "text_ru": "Руководство, департаменты, факультеты, кафедры и центры — с сотрудниками и контактами на отдельном портале.",
+   "text_en": "Leadership, departments, faculties, chairs and centres — with staff and contact details on a dedicated portal."
+  }
+ },
+ {
+  "id": "home.org.n1",
+  "type": "text",
+  "tag": "b",
+  "label": "12",
+  "context": "Bosh sahifa · Tuzilma",
+  "page": "Bosh sahifa",
+  "original": {
+   "text": "12",
+   "text_ru": "12",
+   "text_en": "12"
+  }
+ },
+ {
+  "id": "home.org.n1l",
+  "type": "text",
+  "tag": "span",
+  "label": "departament",
+  "context": "Bosh sahifa · Tuzilma",
+  "page": "Bosh sahifa",
+  "original": {
+   "text": "departament",
+   "text_ru": "департаментов",
+   "text_en": "departments"
+  }
+ },
+ {
+  "id": "home.org.n2",
+  "type": "text",
+  "tag": "b",
+  "label": "3",
+  "context": "Bosh sahifa · Tuzilma",
+  "page": "Bosh sahifa",
+  "original": {
+   "text": "3",
+   "text_ru": "3",
+   "text_en": "3"
+  }
+ },
+ {
+  "id": "home.org.n2l",
+  "type": "text",
+  "tag": "span",
+  "label": "fakultet",
+  "context": "Bosh sahifa · Tuzilma",
+  "page": "Bosh sahifa",
+  "original": {
+   "text": "fakultet",
+   "text_ru": "факультета",
+   "text_en": "faculties"
+  }
+ },
+ {
+  "id": "home.org.n3",
+  "type": "text",
+  "tag": "b",
+  "label": "9",
+  "context": "Bosh sahifa · Tuzilma",
+  "page": "Bosh sahifa",
+  "original": {
+   "text": "9",
+   "text_ru": "9",
+   "text_en": "9"
+  }
+ },
+ {
+  "id": "home.org.n3l",
+  "type": "text",
+  "tag": "span",
+  "label": "kafedra",
+  "context": "Bosh sahifa · Tuzilma",
+  "page": "Bosh sahifa",
+  "original": {
+   "text": "kafedra",
+   "text_ru": "кафедр",
+   "text_en": "chairs"
+  }
+ },
+ {
+  "id": "home.org.n4",
+  "type": "text",
+  "tag": "b",
+  "label": "3",
+  "context": "Bosh sahifa · Tuzilma",
+  "page": "Bosh sahifa",
+  "original": {
+   "text": "3",
+   "text_ru": "3",
+   "text_en": "3"
+  }
+ },
+ {
+  "id": "home.org.n4l",
+  "type": "text",
+  "tag": "span",
+  "label": "markaz va bo‘lim",
+  "context": "Bosh sahifa · Tuzilma",
+  "page": "Bosh sahifa",
+  "original": {
+   "text": "markaz va bo‘lim",
+   "text_ru": "центра и отдела",
+   "text_en": "centres and units"
+  }
+ },
+ {
+  "id": "home.ask.eyebrow",
+  "type": "text",
+  "tag": "p",
+  "label": "Savol-javob",
+  "context": "Bosh sahifa · Yordamchi",
+  "page": "Bosh sahifa",
+  "original": {
+   "text": "Savol-javob",
+   "text_ru": "Вопросы и ответы",
+   "text_en": "Q&A"
+  }
+ },
+ {
+  "id": "home.ask.t1",
+  "type": "text",
+  "tag": "span",
+  "label": "Savolingiz bormi?",
+  "context": "Bosh sahifa · Yordamchi",
+  "page": "Bosh sahifa",
+  "original": {
+   "text": "Savolingiz bormi?",
+   "text_ru": "Есть вопрос?",
+   "text_en": "Have a question?"
+  }
+ },
+ {
+  "id": "home.ask.t2",
+  "type": "text",
+  "tag": "em",
+  "label": "Yordamchi javob beradi",
+  "context": "Bosh sahifa · Yordamchi",
+  "page": "Bosh sahifa",
+  "original": {
+   "text": "Yordamchi javob beradi",
+   "text_ru": "Ассистент ответит",
+   "text_en": "Ask the assistant"
+  }
+ },
+ {
+  "id": "home.ask.lead",
+  "type": "text",
+  "tag": "p",
+  "label": "Narxlar, yo‘nalishlar, qabul, xalqaro dasturlar va aloqa — javoblar saytdagi rasmiy ma’lumotlardan olinadi va manbasi ko",
+  "context": "Bosh sahifa · Yordamchi",
+  "page": "Bosh sahifa",
+  "original": {
+   "text": "Narxlar, yo‘nalishlar, qabul, xalqaro dasturlar va aloqa — javoblar saytdagi rasmiy ma’lumotlardan olinadi va manbasi ko‘rsatiladi.",
+   "text_ru": "Стоимость, направления, приём, международные программы и контакты — ответы берутся из официальных данных сайта с указанием источника.",
+   "text_en": "Fees, programmes, admissions, international options and contacts — answers come from the site’s official data, with sources."
+  }
+ },
+ {
+  "id": "home.int.eyebrow",
+  "type": "text",
+  "tag": "p",
+  "label": "Foydali havolalar",
+  "context": "Bosh sahifa · Foydali havolalar",
+  "page": "Bosh sahifa",
+  "original": {
+   "text": "Foydali havolalar",
+   "text_ru": "Полезные ссылки",
+   "text_en": "Useful links"
+  }
+ },
+ {
+  "id": "home.int.t1",
+  "type": "text",
+  "tag": "span",
+  "label": "Kerakli ma’lumot",
+  "context": "Bosh sahifa · Foydali havolalar",
+  "page": "Bosh sahifa",
+  "original": {
+   "text": "Kerakli ma’lumot",
+   "text_ru": "Нужная информация",
+   "text_en": "Everything you need"
+  }
+ },
+ {
+  "id": "home.int.t2",
+  "type": "text",
+  "tag": "em",
+  "label": "bir joyda",
+  "context": "Bosh sahifa · Foydali havolalar",
+  "page": "Bosh sahifa",
+  "original": {
+   "text": "bir joyda",
+   "text_ru": "в одном месте",
+   "text_en": "in one place"
+  }
+ },
+ {
+  "id": "home.contact.eyebrow",
+  "type": "text",
+  "tag": "p",
+  "label": "Aloqa",
+  "context": "Bosh sahifa · Aloqa",
+  "page": "Bosh sahifa",
+  "original": {
+   "text": "Aloqa",
+   "text_ru": "Контакты",
+   "text_en": "Contact"
+  }
+ },
+ {
+  "id": "home.contact.t1",
+  "type": "text",
+  "tag": "span",
+  "label": "Bizga",
+  "context": "Bosh sahifa · Aloqa",
+  "page": "Bosh sahifa",
+  "original": {
+   "text": "Bizga",
+   "text_ru": "Приходите",
+   "text_en": "Come and"
+  }
+ },
+ {
+  "id": "home.contact.t2",
+  "type": "text",
+  "tag": "em",
+  "label": "tashrif buyuring",
+  "context": "Bosh sahifa · Aloqa",
+  "page": "Bosh sahifa",
+  "original": {
+   "text": "tashrif buyuring",
+   "text_ru": "к нам",
+   "text_en": "visit us"
+  }
+ },
+ {
+  "id": "404.title",
+  "type": "text",
+  "tag": "h1",
+  "label": "Bu sahifa topilmadi",
+  "context": "404 sahifa",
+  "page": "404 sahifa",
+  "original": {
+   "text": "Bu sahifa topilmadi",
+   "text_ru": "Страница не найдена",
+   "text_en": "Page not found"
+  }
+ },
+ {
+  "id": "404.text",
+  "type": "text",
+  "tag": "p",
+  "label": "Havola eskirgan yoki sahifa boshqa manzilga ko‘chirilgan bo‘lishi mumkin. Qidiruvdan foydalaning yoki bosh sahifaga qayt",
+  "context": "404 sahifa",
+  "page": "404 sahifa",
+  "original": {
+   "text": "Havola eskirgan yoki sahifa boshqa manzilga ko‘chirilgan bo‘lishi mumkin. Qidiruvdan foydalaning yoki bosh sahifaga qayting.",
+   "text_ru": "Ссылка устарела, или страница перенесена. Воспользуйтесь поиском или вернитесь на главную.",
+   "text_en": "The link may be out of date or the page has moved. Try searching or go back to the home page."
+  }
+ },
+ {
+  "id": "prog.eyebrow",
+  "type": "text",
+  "tag": "p",
+  "label": "Ta’lim yo‘nalishlari",
+  "context": "Yo‘nalishlar · Hero",
+  "page": "Yo‘nalishlar",
+  "original": {
+   "text": "Ta’lim yo‘nalishlari",
+   "text_ru": "Направления обучения",
+   "text_en": "Degree programmes"
+  }
+ },
+ {
+  "id": "prog.t1",
+  "type": "text",
+  "tag": "span",
+  "label": "Yo‘nalishingizni",
+  "context": "Yo‘nalishlar · Hero",
+  "page": "Yo‘nalishlar",
+  "original": {
+   "text": "Yo‘nalishingizni",
+   "text_ru": "Найдите",
+   "text_en": "Find"
+  }
+ },
+ {
+  "id": "prog.t2",
+  "type": "text",
+  "tag": "em",
+  "label": "toping",
+  "context": "Yo‘nalishlar · Hero",
+  "page": "Yo‘nalishlar",
+  "original": {
+   "text": "toping",
+   "text_ru": "своё направление",
+   "text_en": "your programme"
+  }
+ },
+ {
+  "id": "prog.lead",
+  "type": "text",
+  "tag": "p",
+  "label": "Bakalavriat va magistratura yo‘nalishlari, ta’lim shakllari va 2026/2027 o‘quv yili uchun kontrakt narxlari. Yo‘nalishla",
+  "context": "Yo‘nalishlar · Hero",
+  "page": "Yo‘nalishlar",
+  "original": {
+   "text": "Bakalavriat va magistratura yo‘nalishlari, ta’lim shakllari va 2026/2027 o‘quv yili uchun kontrakt narxlari. Yo‘nalishlarni solishtiring yoki qisqa test orqali o‘zingizga mosini toping.",
+   "text_ru": "Направления бакалавриата и магистратуры, формы обучения и стоимость на 2026/2027 учебный год. Сравните программы или найдите подходящую с помощью короткого теста.",
+   "text_en": "Bachelor’s and master’s programmes, study modes and tuition for 2026/2027. Compare programmes or find the right one with a short quiz."
+  }
+ },
+ {
+  "id": "prog.src",
+  "type": "text",
+  "tag": "p",
+  "label": "Narxlar manbasi: kokanduni.uz/specializations (2026-yil oktabr). Yakuniy shartlar qabul platformasida e’lon qilinadi.",
+  "context": "Yo‘nalishlar · Hero",
+  "page": "Yo‘nalishlar",
+  "original": {
+   "text": "Narxlar manbasi: kokanduni.uz/specializations (2026-yil oktabr). Yakuniy shartlar qabul platformasida e’lon qilinadi.",
+   "text_ru": "Источник цен: kokanduni.uz/specializations (октябрь 2026 г.). Окончательные условия публикуются на платформе приёма.",
+   "text_en": "Fee source: kokanduni.uz/specializations (October 2026). Final terms are published on the admissions portal."
+  }
+ },
+ {
+  "id": "gal.eyebrow",
+  "type": "text",
+  "tag": "p",
+  "label": "Galereya",
+  "context": "Galereya · Hero",
+  "page": "Galereya",
+  "original": {
+   "text": "Galereya",
+   "text_ru": "Галерея",
+   "text_en": "Gallery"
+  }
+ },
+ {
+  "id": "gal.t1",
+  "type": "text",
+  "tag": "span",
+  "label": "Kampus",
+  "context": "Galereya · Hero",
+  "page": "Galereya",
+  "original": {
+   "text": "Kampus",
+   "text_ru": "Кампус",
+   "text_en": "Campus"
+  }
+ },
+ {
+  "id": "gal.t2",
+  "type": "text",
+  "tag": "em",
+  "label": "kadrlarda",
+  "context": "Galereya · Hero",
+  "page": "Galereya",
+  "original": {
+   "text": "kadrlarda",
+   "text_ru": "в кадрах",
+   "text_en": "in pictures"
+  }
+ },
+ {
+  "id": "gal.lead",
+  "type": "text",
+  "tag": "p",
+  "label": "Universitet binosi, tadbirlar, xalqaro uchrashuvlar va talabalar hayotidan lavhalar.",
+  "context": "Galereya · Hero",
+  "page": "Galereya",
+  "original": {
+   "text": "Universitet binosi, tadbirlar, xalqaro uchrashuvlar va talabalar hayotidan lavhalar.",
+   "text_ru": "Здание университета, события, международные встречи и студенческая жизнь.",
+   "text_en": "The university building, events, international meetings and student life."
+  }
+ },
+ {
+  "id": "news.eyebrow",
+  "type": "text",
+  "tag": "p",
+  "label": "Yangiliklar",
+  "context": "Yangiliklar · Hero",
+  "page": "Yangiliklar",
+  "original": {
+   "text": "Yangiliklar",
+   "text_ru": "Новости",
+   "text_en": "News"
+  }
+ },
+ {
+  "id": "news.t1",
+  "type": "text",
+  "tag": "span",
+  "label": "Universitet",
+  "context": "Yangiliklar · Hero",
+  "page": "Yangiliklar",
+  "original": {
+   "text": "Universitet",
+   "text_ru": "Моменты",
+   "text_en": "Moments from"
+  }
+ },
+ {
+  "id": "news.t2",
+  "type": "text",
+  "tag": "em",
+  "label": "hayotidan",
+  "context": "Yangiliklar · Hero",
+  "page": "Yangiliklar",
+  "original": {
+   "text": "hayotidan",
+   "text_ru": "университетской",
+   "text_en": "university"
+  }
+ },
+ {
+  "id": "news.t3",
+  "type": "text",
+  "tag": "span",
+  "label": "lavhalar",
+  "context": "Yangiliklar · Hero",
+  "page": "Yangiliklar",
+  "original": {
+   "text": "lavhalar",
+   "text_ru": "жизни",
+   "text_en": "life"
+  }
+ },
+ {
+  "id": "news.lead",
+  "type": "text",
+  "tag": "p",
+  "label": "Xalqaro hamkorlik, ilmiy tadbirlar, tanlovlar va talabalar hayoti — eng so‘nggi xabarlar.",
+  "context": "Yangiliklar · Hero",
+  "page": "Yangiliklar",
+  "original": {
+   "text": "Xalqaro hamkorlik, ilmiy tadbirlar, tanlovlar va talabalar hayoti — eng so‘nggi xabarlar.",
+   "text_ru": "Международное сотрудничество, научные события, конкурсы и студенческая жизнь — последние новости.",
+   "text_en": "International partnerships, research events, competitions and student life — the latest updates."
+  }
+ },
+ {
+  "id": "offline.title",
+  "type": "text",
+  "tag": "h1",
+  "label": "Internet aloqasi yo‘q",
+  "context": "Oflayn sahifa",
+  "page": "Oflayn sahifa",
+  "original": {
+   "text": "Internet aloqasi yo‘q",
+   "text_ru": "Нет подключения к интернету",
+   "text_en": "No internet connection"
+  }
+ },
+ {
+  "id": "offline.text",
+  "type": "text",
+  "tag": "p",
+  "label": "Siz oflayn rejimdasiz. Avval ochilgan sahifalar ishlayveradi; aloqa tiklanganda sahifa avtomatik yangilanadi.",
+  "context": "Oflayn sahifa",
+  "page": "Oflayn sahifa",
+  "original": {
+   "text": "Siz oflayn rejimdasiz. Avval ochilgan sahifalar ishlayveradi; aloqa tiklanganda sahifa avtomatik yangilanadi.",
+   "text_ru": "Вы офлайн. Ранее открытые страницы доступны; при восстановлении связи страница обновится автоматически.",
+   "text_en": "You are offline. Pages you opened before still work; this page will refresh automatically when you reconnect."
+  }
+ },
+ {
+  "id": "stories.eyebrow",
+  "type": "text",
+  "tag": "p",
+  "label": "Hikoyalar",
+  "context": "Hikoyalar · Hero",
+  "page": "Hikoyalar",
+  "original": {
+   "text": "Hikoyalar",
+   "text_ru": "Истории",
+   "text_en": "Stories"
+  }
+ },
+ {
+  "id": "stories.t1",
+  "type": "text",
+  "tag": "span",
+  "label": "G‘oyadan",
+  "context": "Hikoyalar · Hero",
+  "page": "Hikoyalar",
+  "original": {
+   "text": "G‘oyadan",
+   "text_ru": "От идеи",
+   "text_en": "From idea"
+  }
+ },
+ {
+  "id": "stories.t2",
+  "type": "text",
+  "tag": "em",
+  "label": "natijagacha",
+  "context": "Hikoyalar · Hero",
+  "page": "Hikoyalar",
+  "original": {
+   "text": "natijagacha",
+   "text_ru": "до результата",
+   "text_en": "to impact"
+  }
+ },
+ {
+  "id": "stories.lead",
+  "type": "text",
+  "tag": "p",
+  "label": "Talabalar startaplari, tanlovlardagi yutuqlar va universitet hayotidagi muhim voqealar haqida hikoyalar.",
+  "context": "Hikoyalar · Hero",
+  "page": "Hikoyalar",
+  "original": {
+   "text": "Talabalar startaplari, tanlovlardagi yutuqlar va universitet hayotidagi muhim voqealar haqida hikoyalar.",
+   "text_ru": "Истории о студенческих стартапах, победах в конкурсах и важных событиях университета.",
+   "text_en": "Stories of student startups, competition wins and milestones in university life."
+  }
+ },
+ {
+  "id": "about.eyebrow",
+  "type": "text",
+  "tag": "p",
+  "label": "Biz haqimizda",
+  "context": "Universitet · Hero",
+  "page": "Universitet",
+  "original": {
+   "text": "Biz haqimizda",
+   "text_ru": "Об университете",
+   "text_en": "About us"
+  }
+ },
+ {
+  "id": "about.t1",
+  "type": "text",
+  "tag": "span",
+  "label": "2019-yildan buyon",
+  "context": "Universitet · Hero",
+  "page": "Universitet",
+  "original": {
+   "text": "2019-yildan buyon",
+   "text_ru": "С 2019 года готовим",
+   "text_en": "Since 2019, preparing"
+  }
+ },
+ {
+  "id": "about.t2",
+  "type": "text",
+  "tag": "em",
+  "label": "kelajak",
+  "context": "Universitet · Hero",
+  "page": "Universitet",
+  "original": {
+   "text": "kelajak",
+   "text_ru": "специалистов",
+   "text_en": "tomorrow’s"
+  }
+ },
+ {
+  "id": "about.t3",
+  "type": "text",
+  "tag": "span",
+  "label": "mutaxassislarini tayyorlaymiz",
+  "context": "Universitet · Hero",
+  "page": "Universitet",
+  "original": {
+   "text": "mutaxassislarini tayyorlaymiz",
+   "text_ru": "будущего",
+   "text_en": "professionals"
+  }
+ },
+ {
+  "id": "about.lead",
+  "type": "text",
+  "tag": "p",
+  "label": "Kokand University (“Qo‘qon universiteti”) — O‘zbekiston Respublikasi Vazirlar Mahkamasining 2019-yil 17-avgustdagi 683-s",
+  "context": "Universitet · Hero",
+  "page": "Universitet",
+  "original": {
+   "text": "Kokand University (“Qo‘qon universiteti”) — O‘zbekiston Respublikasi Vazirlar Mahkamasining 2019-yil 17-avgustdagi 683-son qarori asosida tashkil etilgan, Farg‘ona viloyatidagi birinchi nodavlat oliy ta’lim muassasasi.",
+   "text_ru": "Kokand University («Кокандский университет») — первый негосударственный вуз Ферганской области, созданный на основании постановления Кабинета Министров Республики Узбекистан № 683 от 17 августа 2019 года.",
+   "text_en": "Kokand University (“Qo‘qon universiteti”) is the first private higher education institution in the Fergana region, established by Resolution No. 683 of the Cabinet of Ministers of Uzbekistan of 17 August 2019."
+  }
+ },
+ {
+  "id": "about.f1",
+  "type": "text",
+  "tag": "b",
+  "label": "2019",
+  "context": "Universitet · Faktlar",
+  "page": "Universitet",
+  "original": {
+   "text": "2019",
+   "text_ru": "2019",
+   "text_en": "2019"
+  }
+ },
+ {
+  "id": "about.f1l",
+  "type": "text",
+  "tag": "span",
+  "label": "tashkil etilgan yil",
+  "context": "Universitet · Faktlar",
+  "page": "Universitet",
+  "original": {
+   "text": "tashkil etilgan yil",
+   "text_ru": "год основания",
+   "text_en": "year founded"
+  }
+ },
+ {
+  "id": "about.f2",
+  "type": "text",
+  "tag": "b",
+  "label": "3",
+  "context": "Universitet · Faktlar",
+  "page": "Universitet",
+  "original": {
+   "text": "3",
+   "text_ru": "3",
+   "text_en": "3"
+  }
+ },
+ {
+  "id": "about.f2l",
+  "type": "text",
+  "tag": "span",
+  "label": "fakultet va 9 kafedra",
+  "context": "Universitet · Faktlar",
+  "page": "Universitet",
+  "original": {
+   "text": "fakultet va 9 kafedra",
+   "text_ru": "факультета и 9 кафедр",
+   "text_en": "faculties and 9 chairs"
+  }
+ },
+ {
+  "id": "about.f3",
+  "type": "text",
+  "tag": "b",
+  "label": "14",
+  "context": "Universitet · Faktlar",
+  "page": "Universitet",
+  "original": {
+   "text": "14",
+   "text_ru": "14",
+   "text_en": "14"
+  }
+ },
+ {
+  "id": "about.f3l",
+  "type": "text",
+  "tag": "span",
+  "label": "ta’lim yo‘nalishi",
+  "context": "Universitet · Faktlar",
+  "page": "Universitet",
+  "original": {
+   "text": "ta’lim yo‘nalishi",
+   "text_ru": "направлений обучения",
+   "text_en": "degree programmes"
+  }
+ },
+ {
+  "id": "about.f4",
+  "type": "text",
+  "tag": "b",
+  "label": "13 475",
+  "context": "Universitet · Faktlar",
+  "page": "Universitet",
+  "original": {
+   "text": "13 475",
+   "text_ru": "13 475",
+   "text_en": "13,475"
+  }
+ },
+ {
+  "id": "about.f4l",
+  "type": "text",
+  "tag": "span",
+  "label": "talaba",
+  "context": "Universitet · Faktlar",
+  "page": "Universitet",
+  "original": {
+   "text": "talaba",
+   "text_ru": "студентов",
+   "text_en": "students"
+  }
+ },
+ {
+  "id": "about.photo",
+  "type": "image",
+  "tag": "img",
+  "label": "Kokand University kampusi va “Founded in 2019” yozuvli toshtaxta",
+  "context": "Universitet · Missiya",
+  "page": "Universitet",
+  "original": {
+   "src": "/img/ku/kampus-640.webp",
+   "alt": "Kokand University kampusi va “Founded in 2019” yozuvli toshtaxta",
+   "title": "",
+   "alt_ru": "Кампус Kokand University и камень с надписью «Founded in 2019»",
+   "alt_en": "Kokand University campus and the “Founded in 2019” stone sign"
+  }
+ },
+ {
+  "id": "about.photo_cap",
+  "type": "text",
+  "tag": "b",
+  "label": "Qo‘qon, Turkiston ko‘chasi, 28-A",
+  "context": "Universitet · Missiya",
+  "page": "Universitet",
+  "original": {
+   "text": "Qo‘qon, Turkiston ko‘chasi, 28-A",
+   "text_ru": "Коканд, ул. Туркистон, 28-А",
+   "text_en": "28-A Turkiston Street, Kokand"
+  }
+ },
+ {
+  "id": "about.mission.eyebrow",
+  "type": "text",
+  "tag": "p",
+  "label": "Missiya",
+  "context": "Universitet · Missiya",
+  "page": "Universitet",
+  "original": {
+   "text": "Missiya",
+   "text_ru": "Миссия",
+   "text_en": "Mission"
+  }
+ },
+ {
+  "id": "about.mission.t1",
+  "type": "text",
+  "tag": "span",
+  "label": "Bilim, texnologiya va",
+  "context": "Universitet · Missiya",
+  "page": "Universitet",
+  "original": {
+   "text": "Bilim, texnologiya va",
+   "text_ru": "Знания, технологии и",
+   "text_en": "Knowledge, technology and"
+  }
+ },
+ {
+  "id": "about.mission.t2",
+  "type": "text",
+  "tag": "em",
+  "label": "mas’uliyat",
+  "context": "Universitet · Missiya",
+  "page": "Universitet",
+  "original": {
+   "text": "mas’uliyat",
+   "text_ru": "ответственность",
+   "text_en": "responsibility"
+  }
+ },
+ {
+  "id": "about.mission.quote",
+  "type": "text",
+  "tag": "p",
+  "label": "Zamonaviy ilm-fan va texnologiyalar asosida raqobatbardosh, ijtimoiy mas’uliyatli, yuqori malakali mutaxassislar tayyorl",
+  "context": "Universitet · Missiya",
+  "page": "Universitet",
+  "original": {
+   "text": "Zamonaviy ilm-fan va texnologiyalar asosida raqobatbardosh, ijtimoiy mas’uliyatli, yuqori malakali mutaxassislar tayyorlash.",
+   "text_ru": "Подготовка конкурентоспособных, социально ответственных, высококвалифицированных специалистов на основе современной науки и технологий.",
+   "text_en": "To train competitive, socially responsible, highly qualified professionals grounded in modern science and technology."
+  }
+ },
+ {
+  "id": "about.mission.cite",
+  "type": "text",
+  "tag": "cite",
+  "label": "Universitet missiyasi",
+  "context": "Universitet · Missiya",
+  "page": "Universitet",
+  "original": {
+   "text": "Universitet missiyasi",
+   "text_ru": "Миссия университета",
+   "text_en": "University mission"
+  }
+ },
+ {
+  "id": "about.mission.text",
+  "type": "text",
+  "tag": "p",
+  "label": "Universitet bakalavriat (kunduzgi, sirtqi va masofaviy), magistratura va doktorantura bosqichlarida ta’lim beradi. Diplo",
+  "context": "Universitet · Missiya",
+  "page": "Universitet",
+  "original": {
+   "text": "Universitet bakalavriat (kunduzgi, sirtqi va masofaviy), magistratura va doktorantura bosqichlarida ta’lim beradi. Diplomlar O‘zbekiston Respublikasida oliy ma’lumot to‘g‘risidagi davlat hujjati sifatida tan olinadi.",
+   "text_ru": "Университет ведёт обучение в бакалавриате (очная, заочная и дистанционная формы), магистратуре и докторантуре. Дипломы признаются в Республике Узбекистан государственным документом о высшем образовании.",
+   "text_en": "The university offers bachelor’s (full-time, part-time and distance), master’s and doctoral studies. Its diplomas are recognised in Uzbekistan as official state higher education credentials."
+  }
+ },
+ {
+  "id": "about.goals.eyebrow",
+  "type": "text",
+  "tag": "p",
+  "label": "Strategik maqsadlar",
+  "context": "Universitet · Strategiya",
+  "page": "Universitet",
+  "original": {
+   "text": "Strategik maqsadlar",
+   "text_ru": "Стратегические цели",
+   "text_en": "Strategic goals"
+  }
+ },
+ {
+  "id": "about.goals.t1",
+  "type": "text",
+  "tag": "span",
+  "label": "Keyingi qadamlar —",
+  "context": "Universitet · Strategiya",
+  "page": "Universitet",
+  "original": {
+   "text": "Keyingi qadamlar —",
+   "text_ru": "Следующие шаги —",
+   "text_en": "Next steps —"
+  }
+ },
+ {
+  "id": "about.goals.t2",
+  "type": "text",
+  "tag": "em",
+  "label": "xalqaro standart",
+  "context": "Universitet · Strategiya",
+  "page": "Universitet",
+  "original": {
+   "text": "xalqaro standart",
+   "text_ru": "международный стандарт",
+   "text_en": "international standards"
+  }
+ },
+ {
+  "id": "about.goal1",
+  "type": "text",
+  "tag": "h3",
+  "label": "Xalqaro akkreditatsiya va ISO sertifikati",
+  "context": "Universitet · Strategiya",
+  "page": "Universitet",
+  "original": {
+   "text": "Xalqaro akkreditatsiya va ISO sertifikati",
+   "text_ru": "Международная аккредитация и сертификат ISO",
+   "text_en": "International accreditation and ISO certification"
+  }
+ },
+ {
+  "id": "about.goal1d",
+  "type": "text",
+  "tag": "p",
+  "label": "Ta’lim sifatini xalqaro mezonlar bo‘yicha tasdiqlash.",
+  "context": "Universitet · Strategiya",
+  "page": "Universitet",
+  "original": {
+   "text": "Ta’lim sifatini xalqaro mezonlar bo‘yicha tasdiqlash.",
+   "text_ru": "Подтверждение качества образования по международным критериям.",
+   "text_en": "Confirming the quality of education against international criteria."
+  }
+ },
+ {
+  "id": "about.goal2",
+  "type": "text",
+  "tag": "h3",
+  "label": "Smart Academic Timetable",
+  "context": "Universitet · Strategiya",
+  "page": "Universitet",
+  "original": {
+   "text": "Smart Academic Timetable",
+   "text_ru": "Smart Academic Timetable",
+   "text_en": "Smart Academic Timetable"
+  }
+ },
+ {
+  "id": "about.goal2d",
+  "type": "text",
+  "tag": "p",
+  "label": "Dars jadvali va o‘quv jarayonini boshqaruvchi elektron platforma.",
+  "context": "Universitet · Strategiya",
+  "page": "Universitet",
+  "original": {
+   "text": "Dars jadvali va o‘quv jarayonini boshqaruvchi elektron platforma.",
+   "text_ru": "Электронная платформа для расписания и учебного процесса.",
+   "text_en": "An e-platform managing timetables and the learning process."
+  }
+ },
+ {
+  "id": "about.goal3",
+  "type": "text",
+  "tag": "h3",
+  "label": "Masofaviy ta’limni kengaytirish",
+  "context": "Universitet · Strategiya",
+  "page": "Universitet",
+  "original": {
+   "text": "Masofaviy ta’limni kengaytirish",
+   "text_ru": "Развитие дистанционного обучения",
+   "text_en": "Expanding distance learning"
+  }
+ },
+ {
+  "id": "about.goal3d",
+  "type": "text",
+  "tag": "p",
+  "label": "Istalgan hududdan sifatli ta’lim olish imkoniyati.",
+  "context": "Universitet · Strategiya",
+  "page": "Universitet",
+  "original": {
+   "text": "Istalgan hududdan sifatli ta’lim olish imkoniyati.",
+   "text_ru": "Качественное образование из любого региона.",
+   "text_en": "Quality education from any region."
+  }
+ },
+ {
+  "id": "about.goal4",
+  "type": "text",
+  "tag": "h3",
+  "label": "Scopus va Web of Science",
+  "context": "Universitet · Strategiya",
+  "page": "Universitet",
+  "original": {
+   "text": "Scopus va Web of Science",
+   "text_ru": "Scopus и Web of Science",
+   "text_en": "Scopus and Web of Science"
+  }
+ },
+ {
+  "id": "about.goal4d",
+  "type": "text",
+  "tag": "p",
+  "label": "Xalqaro ilmiy bazalardagi jurnallarda nashrlar sonini oshirish.",
+  "context": "Universitet · Strategiya",
+  "page": "Universitet",
+  "original": {
+   "text": "Xalqaro ilmiy bazalardagi jurnallarda nashrlar sonini oshirish.",
+   "text_ru": "Рост числа публикаций в журналах международных баз.",
+   "text_en": "More publications in internationally indexed journals."
+  }
+ },
+ {
+  "id": "about.units.eyebrow",
+  "type": "text",
+  "tag": "p",
+  "label": "Tashkiliy tuzilma",
+  "context": "Universitet · Tuzilma",
+  "page": "Universitet",
+  "original": {
+   "text": "Tashkiliy tuzilma",
+   "text_ru": "Организационная структура",
+   "text_en": "Organisational structure"
+  }
+ },
+ {
+  "id": "about.units.t1",
+  "type": "text",
+  "tag": "span",
+  "label": "Fakultetlar,",
+  "context": "Universitet · Tuzilma",
+  "page": "Universitet",
+  "original": {
+   "text": "Fakultetlar,",
+   "text_ru": "Факультеты,",
+   "text_en": "Faculties,"
+  }
+ },
+ {
+  "id": "about.units.t2",
+  "type": "text",
+  "tag": "em",
+  "label": "kafedralar va markazlar",
+  "context": "Universitet · Tuzilma",
+  "page": "Universitet",
+  "original": {
+   "text": "kafedralar va markazlar",
+   "text_ru": "кафедры и центры",
+   "text_en": "chairs and centres"
+  }
+ },
+ {
+  "id": "about.u1.title",
+  "type": "text",
+  "tag": "h3",
+  "label": "Fakultetlar",
+  "context": "Universitet · Tuzilma",
+  "page": "Universitet",
+  "original": {
+   "text": "Fakultetlar",
+   "text_ru": "Факультеты",
+   "text_en": "Faculties"
+  }
+ },
+ {
+  "id": "about.u1.1",
+  "type": "text",
+  "tag": "li",
+  "label": "Turizm va iqtisodiyot fakulteti",
+  "context": "Universitet · Tuzilma",
+  "page": "Universitet",
+  "original": {
+   "text": "Turizm va iqtisodiyot fakulteti",
+   "text_ru": "Факультет туризма и экономики",
+   "text_en": "Faculty of Tourism and Economics"
+  }
+ },
+ {
+  "id": "about.u1.2",
+  "type": "text",
+  "tag": "li",
+  "label": "Jahon tillari va filologiya fakulteti",
+  "context": "Universitet · Tuzilma",
+  "page": "Universitet",
+  "original": {
+   "text": "Jahon tillari va filologiya fakulteti",
+   "text_ru": "Факультет мировых языков и филологии",
+   "text_en": "Faculty of World Languages and Philology"
+  }
+ },
+ {
+  "id": "about.u1.3",
+  "type": "text",
+  "tag": "li",
+  "label": "Ta’lim fakulteti",
+  "context": "Universitet · Tuzilma",
+  "page": "Universitet",
+  "original": {
+   "text": "Ta’lim fakulteti",
+   "text_ru": "Факультет образования",
+   "text_en": "Faculty of Education"
+  }
+ },
+ {
+  "id": "about.u2.title",
+  "type": "text",
+  "tag": "h3",
+  "label": "Kafedralar",
+  "context": "Universitet · Tuzilma",
+  "page": "Universitet",
+  "original": {
+   "text": "Kafedralar",
+   "text_ru": "Кафедры",
+   "text_en": "Chairs"
+  }
+ },
+ {
+  "id": "about.u2.1",
+  "type": "text",
+  "tag": "li",
+  "label": "Pedagogika va psixologiya",
+  "context": "Universitet · Tuzilma",
+  "page": "Universitet",
+  "original": {
+   "text": "Pedagogika va psixologiya",
+   "text_ru": "Педагогика и психология",
+   "text_en": "Pedagogy and Psychology"
+  }
+ },
+ {
+  "id": "about.u2.2",
+  "type": "text",
+  "tag": "li",
+  "label": "Ijtimoiy fanlar",
+  "context": "Universitet · Tuzilma",
+  "page": "Universitet",
+  "original": {
+   "text": "Ijtimoiy fanlar",
+   "text_ru": "Социальные науки",
+   "text_en": "Social Sciences"
+  }
+ },
+ {
+  "id": "about.u2.3",
+  "type": "text",
+  "tag": "li",
+  "label": "Raqamli texnologiyalar va matematika",
+  "context": "Universitet · Tuzilma",
+  "page": "Universitet",
+  "original": {
+   "text": "Raqamli texnologiyalar va matematika",
+   "text_ru": "Цифровые технологии и математика",
+   "text_en": "Digital Technologies and Mathematics"
+  }
+ },
+ {
+  "id": "about.u2.4",
+  "type": "text",
+  "tag": "li",
+  "label": "Xalqaro turizm va iqtisodiyot",
+  "context": "Universitet · Tuzilma",
+  "page": "Universitet",
+  "original": {
+   "text": "Xalqaro turizm va iqtisodiyot",
+   "text_ru": "Международный туризм и экономика",
+   "text_en": "International Tourism and Economics"
+  }
+ },
+ {
+  "id": "about.u2.5",
+  "type": "text",
+  "tag": "li",
+  "label": "Xorijiy tillarni o‘qitish metodikasi",
+  "context": "Universitet · Tuzilma",
+  "page": "Universitet",
+  "original": {
+   "text": "Xorijiy tillarni o‘qitish metodikasi",
+   "text_ru": "Методика преподавания иностранных языков",
+   "text_en": "Foreign Language Teaching Methods"
+  }
+ },
+ {
+  "id": "about.u2.6",
+  "type": "text",
+  "tag": "li",
+  "label": "Ingliz filologiyasi",
+  "context": "Universitet · Tuzilma",
+  "page": "Universitet",
+  "original": {
+   "text": "Ingliz filologiyasi",
+   "text_ru": "Английская филология",
+   "text_en": "English Philology"
+  }
+ },
+ {
+  "id": "about.u2.7",
+  "type": "text",
+  "tag": "li",
+  "label": "O‘zbek va rus filologiyasi",
+  "context": "Universitet · Tuzilma",
+  "page": "Universitet",
+  "original": {
+   "text": "O‘zbek va rus filologiyasi",
+   "text_ru": "Узбекская и русская филология",
+   "text_en": "Uzbek and Russian Philology"
+  }
+ },
+ {
+  "id": "about.u2.8",
+  "type": "text",
+  "tag": "li",
+  "label": "Maktabgacha va boshlang‘ich ta’lim",
+  "context": "Universitet · Tuzilma",
+  "page": "Universitet",
+  "original": {
+   "text": "Maktabgacha va boshlang‘ich ta’lim",
+   "text_ru": "Дошкольное и начальное образование",
+   "text_en": "Preschool and Primary Education"
+  }
+ },
+ {
+  "id": "about.u2.9",
+  "type": "text",
+  "tag": "li",
+  "label": "Fakultetlararo tillar",
+  "context": "Universitet · Tuzilma",
+  "page": "Universitet",
+  "original": {
+   "text": "Fakultetlararo tillar",
+   "text_ru": "Межфакультетская кафедра языков",
+   "text_en": "Inter-faculty Languages"
+  }
+ },
+ {
+  "id": "about.u3.title",
+  "type": "text",
+  "tag": "h3",
+  "label": "Departamentlar",
+  "context": "Universitet · Tuzilma",
+  "page": "Universitet",
+  "original": {
+   "text": "Departamentlar",
+   "text_ru": "Департаменты",
+   "text_en": "Departments"
+  }
+ },
+ {
+  "id": "about.u3.1",
+  "type": "text",
+  "tag": "li",
+  "label": "Akademik ishlar",
+  "context": "Universitet · Tuzilma",
+  "page": "Universitet",
+  "original": {
+   "text": "Akademik ishlar",
+   "text_ru": "Академические дела",
+   "text_en": "Academic Affairs"
+  }
+ },
+ {
+  "id": "about.u3.2",
+  "type": "text",
+  "tag": "li",
+  "label": "Xalqaro hamkorlik",
+  "context": "Universitet · Tuzilma",
+  "page": "Universitet",
+  "original": {
+   "text": "Xalqaro hamkorlik",
+   "text_ru": "Международное сотрудничество",
+   "text_en": "International Cooperation"
+  }
+ },
+ {
+  "id": "about.u3.3",
+  "type": "text",
+  "tag": "li",
+  "label": "Ilmiy tadqiqot",
+  "context": "Universitet · Tuzilma",
+  "page": "Universitet",
+  "original": {
+   "text": "Ilmiy tadqiqot",
+   "text_ru": "Научные исследования",
+   "text_en": "Research"
+  }
+ },
+ {
+  "id": "about.u3.4",
+  "type": "text",
+  "tag": "li",
+  "label": "Moliya",
+  "context": "Universitet · Tuzilma",
+  "page": "Universitet",
+  "original": {
+   "text": "Moliya",
+   "text_ru": "Финансы",
+   "text_en": "Finance"
+  }
+ },
+ {
+  "id": "about.u3.5",
+  "type": "text",
+  "tag": "li",
+  "label": "HR",
+  "context": "Universitet · Tuzilma",
+  "page": "Universitet",
+  "original": {
+   "text": "HR",
+   "text_ru": "HR",
+   "text_en": "HR"
+  }
+ },
+ {
+  "id": "about.u3.6",
+  "type": "text",
+  "tag": "li",
+  "label": "Operatsion departament",
+  "context": "Universitet · Tuzilma",
+  "page": "Universitet",
+  "original": {
+   "text": "Operatsion departament",
+   "text_ru": "Операционный департамент",
+   "text_en": "Operations"
+  }
+ },
+ {
+  "id": "about.u3.7",
+  "type": "text",
+  "tag": "li",
+  "label": "Registrator ofisi",
+  "context": "Universitet · Tuzilma",
+  "page": "Universitet",
+  "original": {
+   "text": "Registrator ofisi",
+   "text_ru": "Офис регистратора",
+   "text_en": "Registrar’s Office"
+  }
+ },
+ {
+  "id": "about.u3.8",
+  "type": "text",
+  "tag": "li",
+  "label": "Marketing va PR",
+  "context": "Universitet · Tuzilma",
+  "page": "Universitet",
+  "original": {
+   "text": "Marketing va PR",
+   "text_ru": "Маркетинг и PR",
+   "text_en": "Marketing and PR"
+  }
+ },
+ {
+  "id": "about.u3.9",
+  "type": "text",
+  "tag": "li",
+  "label": "Yoshlar bilan ishlash",
+  "context": "Universitet · Tuzilma",
+  "page": "Universitet",
+  "original": {
+   "text": "Yoshlar bilan ishlash",
+   "text_ru": "Работа с молодёжью",
+   "text_en": "Youth Affairs"
+  }
+ },
+ {
+  "id": "about.u3.10",
+  "type": "text",
+  "tag": "li",
+  "label": "Startup va innovatsion tadbirkorlik",
+  "context": "Universitet · Tuzilma",
+  "page": "Universitet",
+  "original": {
+   "text": "Startup va innovatsion tadbirkorlik",
+   "text_ru": "Стартапы и инновационное предпринимательство",
+   "text_en": "Startups and Innovative Entrepreneurship"
+  }
+ },
+ {
+  "id": "about.u3.11",
+  "type": "text",
+  "tag": "li",
+  "label": "IT departamenti",
+  "context": "Universitet · Tuzilma",
+  "page": "Universitet",
+  "original": {
+   "text": "IT departamenti",
+   "text_ru": "IT-департамент",
+   "text_en": "IT Department"
+  }
+ },
+ {
+  "id": "about.u3.12",
+  "type": "text",
+  "tag": "li",
+  "label": "Ta’lim sifatini nazorat qilish",
+  "context": "Universitet · Tuzilma",
+  "page": "Universitet",
+  "original": {
+   "text": "Ta’lim sifatini nazorat qilish",
+   "text_ru": "Контроль качества образования",
+   "text_en": "Quality Assurance"
+  }
+ },
+ {
+  "id": "about.u4.title",
+  "type": "text",
+  "tag": "h3",
+  "label": "Markazlar",
+  "context": "Universitet · Tuzilma",
+  "page": "Universitet",
+  "original": {
+   "text": "Markazlar",
+   "text_ru": "Центры",
+   "text_en": "Centres"
+  }
+ },
+ {
+  "id": "about.u4.1",
+  "type": "text",
+  "tag": "li",
+  "label": "Bitiruvchilarni ish bilan ta’minlashga ko‘maklashish va karyera markazi",
+  "context": "Universitet · Tuzilma",
+  "page": "Universitet",
+  "original": {
+   "text": "Bitiruvchilarni ish bilan ta’minlashga ko‘maklashish va karyera markazi",
+   "text_ru": "Центр содействия трудоустройству выпускников и карьеры",
+   "text_en": "Graduate Employment and Careers Centre"
+  }
+ },
+ {
+  "id": "about.u4.2",
+  "type": "text",
+  "tag": "li",
+  "label": "Axborot-kutubxona markazi",
+  "context": "Universitet · Tuzilma",
+  "page": "Universitet",
+  "original": {
+   "text": "Axborot-kutubxona markazi",
+   "text_ru": "Информационно-библиотечный центр",
+   "text_en": "Information and Library Centre"
+  }
+ },
+ {
+  "id": "about.u4.3",
+  "type": "text",
+  "tag": "li",
+  "label": "Nashriyot bo‘limi",
+  "context": "Universitet · Tuzilma",
+  "page": "Universitet",
+  "original": {
+   "text": "Nashriyot bo‘limi",
+   "text_ru": "Издательский отдел",
+   "text_en": "Publishing Unit"
+  }
+ },
+ {
+  "id": "about.joint.eyebrow",
+  "type": "text",
+  "tag": "p",
+  "label": "Qo‘shma ta’lim dasturlari",
+  "context": "Universitet · Xalqaro",
+  "page": "Universitet",
+  "original": {
+   "text": "Qo‘shma ta’lim dasturlari",
+   "text_ru": "Совместные образовательные программы",
+   "text_en": "Joint degree programmes"
+  }
+ },
+ {
+  "id": "about.joint.t1",
+  "type": "text",
+  "tag": "span",
+  "label": "Ikki yil Qo‘qonda,",
+  "context": "Universitet · Xalqaro",
+  "page": "Universitet",
+  "original": {
+   "text": "Ikki yil Qo‘qonda,",
+   "text_ru": "Два года в Коканде,",
+   "text_en": "Two years in Kokand,"
+  }
+ },
+ {
+  "id": "about.joint.t2",
+  "type": "text",
+  "tag": "em",
+  "label": "ikki yil xorijda",
+  "context": "Universitet · Xalqaro",
+  "page": "Universitet",
+  "original": {
+   "text": "ikki yil xorijda",
+   "text_ru": "два года за рубежом",
+   "text_en": "two years abroad"
+  }
+ },
+ {
+  "id": "about.joint.lead",
+  "type": "text",
+  "tag": "p",
+  "label": "Talabalar 4-semestrda (mart–aprel) ariza topshiradi va o‘qishni hamkor universitetda ikki yil davom ettiradi. Talablar: ",
+  "context": "Universitet · Xalqaro",
+  "page": "Universitet",
+  "original": {
+   "text": "Talabalar 4-semestrda (mart–aprel) ariza topshiradi va o‘qishni hamkor universitetda ikki yil davom ettiradi. Talablar: GPA kamida 3.37, IELTS 6.0 va undan yuqori (Joongbu University uchun TOPIK 3).",
+   "text_ru": "Студенты подают заявку на 4-м семестре (март–апрель) и продолжают обучение два года в университете-партнёре. Требования: GPA не ниже 3.37, IELTS от 6.0 (для Joongbu University — TOPIK 3).",
+   "text_en": "Students apply in the 4th semester (March–April) and continue for two years at a partner university. Requirements: GPA of at least 3.37 and IELTS 6.0 or higher (TOPIK 3 for Joongbu University)."
+  }
+ },
+ {
+  "id": "about.joint.photo_cap",
+  "type": "text",
+  "tag": "figcaption",
+  "label": "Xalqaro hamkorlik memorandumini imzolash marosimi",
+  "context": "Universitet · Xalqaro",
+  "page": "Universitet",
+  "original": {
+   "text": "Xalqaro hamkorlik memorandumini imzolash marosimi",
+   "text_ru": "Церемония подписания меморандума о международном сотрудничестве",
+   "text_en": "Signing ceremony of an international cooperation memorandum"
+  }
+ },
+ {
+  "id": "about.mob.eyebrow",
+  "type": "text",
+  "tag": "p",
+  "label": "Akademik mobillik",
+  "context": "Universitet · Xalqaro",
+  "page": "Universitet",
+  "original": {
+   "text": "Akademik mobillik",
+   "text_ru": "Академическая мобильность",
+   "text_en": "Academic mobility"
+  }
+ },
+ {
+  "id": "about.mob.title",
+  "type": "text",
+  "tag": "h3",
+  "label": "Hamkorlik geografiyasi kengaymoqda",
+  "context": "Universitet · Xalqaro",
+  "page": "Universitet",
+  "original": {
+   "text": "Hamkorlik geografiyasi kengaymoqda",
+   "text_ru": "География партнёрства расширяется",
+   "text_en": "Our partnership map keeps growing"
+  }
+ },
+ {
+  "id": "about.mob.1",
+  "type": "text",
+  "tag": "span",
+  "label": "Erasmus+ ICM dasturi doirasida xalqaro akademik tashriflar",
+  "context": "Universitet · Xalqaro",
+  "page": "Universitet",
+  "original": {
+   "text": "Erasmus+ ICM dasturi doirasida xalqaro akademik tashriflar",
+   "text_ru": "Международные академические визиты в рамках программы Erasmus+ ICM",
+   "text_en": "International academic visits under the Erasmus+ ICM programme"
+  }
+ },
+ {
+  "id": "about.mob.2",
+  "type": "text",
+  "tag": "span",
+  "label": "Qirg‘iziston xalqaro universitetida akademik mobillik dasturi va memorandum",
+  "context": "Universitet · Xalqaro",
+  "page": "Universitet",
+  "original": {
+   "text": "Qirg‘iziston xalqaro universitetida akademik mobillik dasturi va memorandum",
+   "text_ru": "Программа академической мобильности и меморандум с Международным университетом Кыргызстана",
+   "text_en": "Academic mobility programme and a memorandum with the International University of Kyrgyzstan"
+  }
+ },
+ {
+  "id": "about.mob.3",
+  "type": "text",
+  "tag": "span",
+  "label": "Ozarbayjon Arxitektura va qurilish universiteti bilan qo‘shma ilmiy loyihalar muhokamasi",
+  "context": "Universitet · Xalqaro",
+  "page": "Universitet",
+  "original": {
+   "text": "Ozarbayjon Arxitektura va qurilish universiteti bilan qo‘shma ilmiy loyihalar muhokamasi",
+   "text_ru": "Обсуждение совместных научных проектов с Азербайджанским архитектурно-строительным университетом",
+   "text_en": "Joint research projects discussed with Azerbaijan University of Architecture and Construction"
+  }
+ },
+ {
+  "id": "about.docs.title",
+  "type": "text",
+  "tag": "h2",
+  "label": "Litsenziya va rekvizitlar",
+  "context": "Universitet · Hujjatlar",
+  "page": "Universitet",
+  "original": {
+   "text": "Litsenziya va rekvizitlar",
+   "text_ru": "Лицензия и реквизиты",
+   "text_en": "Licence and legal details"
+  }
+ },
+ {
+  "id": "about.docs.text",
+  "type": "text",
+  "tag": "p",
+  "label": "Universitet Ta’lim sifatini nazorat qilish davlat inspeksiyasi tomonidan berilgan litsenziya asosida faoliyat yuritadi.",
+  "context": "Universitet · Hujjatlar",
+  "page": "Universitet",
+  "original": {
+   "text": "Universitet Ta’lim sifatini nazorat qilish davlat inspeksiyasi tomonidan berilgan litsenziya asosida faoliyat yuritadi.",
+   "text_ru": "Университет работает на основании лицензии Государственной инспекции по контролю качества образования.",
+   "text_en": "The university operates under a licence issued by the State Inspectorate for Education Quality Control."
+  }
+ },
+ {
+  "id": "about.science.title",
+  "type": "text",
+  "tag": "h2",
+  "label": "Ilm-fan",
+  "context": "Universitet · Hujjatlar",
+  "page": "Universitet",
+  "original": {
+   "text": "Ilm-fan",
+   "text_ru": "Наука",
+   "text_en": "Research"
+  }
+ },
+ {
+  "id": "about.science.text",
+  "type": "text",
+  "tag": "p",
+  "label": "Universitetda 31 nafar doktorant va 88 nafar mustaqil tadqiqotchi ilmiy izlanish olib bormoqda. Ilmiy natijalar universi",
+  "context": "Universitet · Hujjatlar",
+  "page": "Universitet",
+  "original": {
+   "text": "Universitetda 31 nafar doktorant va 88 nafar mustaqil tadqiqotchi ilmiy izlanish olib bormoqda. Ilmiy natijalar universitetning o‘z jurnalida va maqolalar platformasida e’lon qilinadi.",
+   "text_ru": "В университете ведут исследования 31 докторант и 88 независимых исследователей. Результаты публикуются в собственном журнале университета и на платформе научных статей.",
+   "text_en": "31 doctoral students and 88 independent researchers are conducting research at the university. Results are published in the university’s own journal and on its research articles platform."
+  }
+ },
+ {
+  "id": "cta.title1",
+  "type": "text",
+  "tag": "span",
+  "label": "Kelajagingizni",
+  "context": "Barcha sahifalar (pastki qism)",
+  "page": "Barcha sahifalar (pastki qism)",
+  "original": {
+   "text": "Kelajagingizni",
+   "text_ru": "Выберите",
+   "text_en": "Choose your"
+  }
+ },
+ {
+  "id": "cta.title2",
+  "type": "text",
+  "tag": "em",
+  "label": "bugun",
+  "context": "Barcha sahifalar (pastki qism)",
+  "page": "Barcha sahifalar (pastki qism)",
+  "original": {
+   "text": "bugun",
+   "text_ru": "своё будущее",
+   "text_en": "future"
+  }
+ },
+ {
+  "id": "cta.title3",
+  "type": "text",
+  "tag": "span",
+  "label": "tanlang",
+  "context": "Barcha sahifalar (pastki qism)",
+  "page": "Barcha sahifalar (pastki qism)",
+  "original": {
+   "text": "tanlang",
+   "text_ru": "сегодня",
+   "text_en": "today"
+  }
+ },
+ {
+  "id": "cta.text",
+  "type": "text",
+  "tag": "p",
+  "label": "14 ta ta’lim yo‘nalishi, xalqaro qo‘shma dasturlar va startaplar ekotizimi. Hujjatlar qabul platformasi orqali onlayn to",
+  "context": "Barcha sahifalar (pastki qism)",
+  "page": "Barcha sahifalar (pastki qism)",
+  "original": {
+   "text": "14 ta ta’lim yo‘nalishi, xalqaro qo‘shma dasturlar va startaplar ekotizimi. Hujjatlar qabul platformasi orqali onlayn topshiriladi.",
+   "text_ru": "14 направлений обучения, международные совместные программы и экосистема стартапов. Документы подаются онлайн на платформе приёма.",
+   "text_en": "14 degree programmes, international joint programmes and a startup ecosystem. Applications are submitted online via the admissions portal."
+  }
+ },
+ {
+  "id": "footer.about",
+  "type": "text",
+  "tag": "p",
+  "label": "Farg‘ona viloyatidagi birinchi nodavlat oliy ta’lim muassasasi. 2019-yildan buyon zamonaviy bilim, texnologiya va xalqar",
+  "context": "Barcha sahifalar (pastki qism)",
+  "page": "Barcha sahifalar (pastki qism)",
+  "original": {
+   "text": "Farg‘ona viloyatidagi birinchi nodavlat oliy ta’lim muassasasi. 2019-yildan buyon zamonaviy bilim, texnologiya va xalqaro imkoniyatlar maskani.",
+   "text_ru": "Первый негосударственный вуз Ферганской области. С 2019 года — место современных знаний, технологий и международных возможностей.",
+   "text_en": "The first private higher education institution in the Fergana region. Since 2019, a home for modern knowledge, technology and international opportunity."
+  }
+ }
+]

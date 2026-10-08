@@ -1,0 +1,131 @@
+<a class="skip" href="#main" data-i18n="ui.skip">Asosiy kontentga o‘tish</a>
+<div class="ambient" aria-hidden="true"><i class="aur a1"></i><i class="aur a2"></i><i class="aur a3"></i><i class="tiles"></i><i class="grain"></i></div>
+<header class="site-head" data-head>
+  <div class="head-in wrap">
+    <a class="brand" href="{{L}}/" aria-label="Kokand University — bosh sahifa" data-i18n-attr="aria-label:ui.brand_home">
+      <svg class="brand-logo" viewBox="0 0 1606 486" aria-hidden="true"><use href="/img/brand/ku-brand.svg#logo"/></svg>
+    </a>
+    <nav class="nav" aria-label="Asosiy menyu" data-i18n-attr="aria-label:ui.main_menu">
+      <ul class="nav-list">
+        <li class="has-sub">
+          <button class="nav-link" type="button" aria-expanded="false" aria-controls="sub-uni" data-sub><span data-i18n="nav.university">Universitet</span><svg class="ic" aria-hidden="true"><use href="/img/icons.svg#chevron-down"/></svg></button>
+          <div class="sub glass-2" id="sub-uni">
+            <a href="{{L}}/universitet" data-nav="/universitet"><svg class="ic" aria-hidden="true"><use href="/img/icons.svg#landmark"/></svg><b data-i18n="nav.about">Biz haqimizda</b><small data-i18n="nav.about_d">Tarix, missiya va raqamlar</small></a>
+            <!--if:has_structure_url--><a href="{{set:structure_url}}" target="_blank" rel="noopener"><svg class="ic" aria-hidden="true"><use href="/img/icons.svg#network"/></svg><b data-i18n="nav.structure">Tashkiliy tuzilma</b><small data-i18n="nav.structure_d">Rahbariyat, departamentlar, fakultetlar</small></a><!--/if:has_structure_url-->
+            <a href="{{L}}/universitet#xalqaro"><svg class="ic" aria-hidden="true"><use href="/img/icons.svg#globe"/></svg><b data-i18n="nav.intl">Xalqaro hamkorlik</b><small data-i18n="nav.intl_d">Qo‘shma ta’lim dasturlari</small></a>
+            <a href="{{L}}/hikoyalar" data-nav="/hikoyalar"><svg class="ic" aria-hidden="true"><use href="/img/icons.svg#rocket"/></svg><b data-i18n="nav.startups">Startaplar</b><small data-i18n="nav.startups_d">Talabalar loyihalari va yutuqlari</small></a>
+            <!--if:has_license_url--><a href="{{set:license_url}}" target="_blank" rel="noopener"><svg class="ic" aria-hidden="true"><use href="/img/icons.svg#shield"/></svg><b data-i18n="nav.license">Litsenziya</b><small data-i18n="nav.license_d">Davlat litsenziyasi</small></a><!--/if:has_license_url-->
+            <!--if:has_vacancies_url--><a href="{{set:vacancies_url}}" target="_blank" rel="noopener"><svg class="ic" aria-hidden="true"><use href="/img/icons.svg#briefcase"/></svg><b data-i18n="nav.vacancies">Vakansiyalar</b><small data-i18n="nav.vacancies_d">Jamoamizga qo‘shiling</small></a><!--/if:has_vacancies_url-->
+          </div>
+        </li>
+        <li><a class="nav-link" href="{{L}}/yonalishlar" data-nav="/yonalishlar"><span data-i18n="nav.programmes">Yo‘nalishlar</span></a></li>
+        <li class="has-sub">
+          <button class="nav-link" type="button" aria-expanded="false" aria-controls="sub-app" data-sub><span data-i18n="nav.applicants">Abituriyentga</span><svg class="ic" aria-hidden="true"><use href="/img/icons.svg#chevron-down"/></svg></button>
+          <div class="sub glass-2" id="sub-app">
+            <!--if:has_admission_url--><a href="{{set:admission_url}}" target="_blank" rel="noopener"><svg class="ic" aria-hidden="true"><use href="/img/icons.svg#grad"/></svg><b data-i18n="nav.admission">Qabul platformasi</b><small data-i18n="nav.admission_d">Onlayn hujjat topshirish</small></a><!--/if:has_admission_url-->
+            <a href="{{L}}/yonalishlar#katalog"><svg class="ic" aria-hidden="true"><use href="/img/icons.svg#coins"/></svg><b data-i18n="nav.prices">Kontrakt narxlari</b><small data-i18n="nav.prices_d">2026/2027 o‘quv yili</small></a>
+            <a href="{{L}}/yonalishlar?test=1"><svg class="ic" aria-hidden="true"><use href="/img/icons.svg#compass"/></svg><b data-i18n="nav.quiz">Yo‘nalish tanlash testi</b><small data-i18n="nav.quiz_d">3 savol — mos yo‘nalishlar</small></a>
+            <!--if:has_admission_tg_url--><a href="{{set:admission_tg_url}}" target="_blank" rel="noopener"><svg class="ic" aria-hidden="true"><use href="/img/icons.svg#telegram"/></svg><b data-i18n="nav.admission_tg">Qabul Telegram’da</b><small data-i18n="nav.admission_tg_d">Savollarga tezkor javob</small></a><!--/if:has_admission_tg_url-->
+          </div>
+        </li>
+        <li class="has-sub">
+          <button class="nav-link" type="button" aria-expanded="false" aria-controls="sub-stu" data-sub><span data-i18n="nav.students">Talabaga</span><svg class="ic" aria-hidden="true"><use href="/img/icons.svg#chevron-down"/></svg></button>
+          <div class="sub glass-2" id="sub-stu">
+            <!--if:has_hemis_student_url--><a href="{{set:hemis_student_url}}" target="_blank" rel="noopener"><svg class="ic" aria-hidden="true"><use href="/img/icons.svg#user"/></svg><b data-i18n="svc.hemis_student">Talaba HEMIS</b><small data-i18n="nav.hemis_d">Baholar, jadval, davomat</small></a><!--/if:has_hemis_student_url-->
+            <!--if:has_library_url--><a href="{{set:library_url}}" target="_blank" rel="noopener"><svg class="ic" aria-hidden="true"><use href="/img/icons.svg#book"/></svg><b data-i18n="svc.library">Elektron kutubxona</b><small data-i18n="nav.library_d">Darslik va ilmiy manbalar</small></a><!--/if:has_library_url-->
+            <a href="{{set:official_url}}/uz/static/for-students" target="_blank" rel="noopener"><svg class="ic" aria-hidden="true"><use href="/img/icons.svg#calendar"/></svg><b data-i18n="nav.schedule">Dars jadvali</b><small data-i18n="nav.schedule_d">Fakultetlar bo‘yicha jadvallar</small></a>
+            <!--if:has_journal_url--><a href="{{set:journal_url}}" target="_blank" rel="noopener"><svg class="ic" aria-hidden="true"><use href="/img/icons.svg#file"/></svg><b data-i18n="nav.journal">Ilmiy jurnal</b><small data-i18n="nav.journal_d">Kokand University Herald</small></a><!--/if:has_journal_url-->
+            <!--if:has_webmail_url--><a href="{{set:webmail_url}}" target="_blank" rel="noopener"><svg class="ic" aria-hidden="true"><use href="/img/icons.svg#mail"/></svg><b data-i18n="svc.webmail">Korporativ pochta</b><small data-i18n="nav.webmail_d">@kokanduni.uz pochtasi</small></a><!--/if:has_webmail_url-->
+            <!--if:has_hemis_teacher_url--><a href="{{set:hemis_teacher_url}}" target="_blank" rel="noopener"><svg class="ic" aria-hidden="true"><use href="/img/icons.svg#users"/></svg><b data-i18n="svc.hemis_teacher">O‘qituvchi HEMIS</b><small data-i18n="nav.teacher_d">Professor-o‘qituvchilar uchun</small></a><!--/if:has_hemis_teacher_url-->
+          </div>
+        </li>
+        <li class="has-sub">
+          <button class="nav-link" type="button" aria-expanded="false" aria-controls="sub-media" data-sub><span data-i18n="nav.media">Media</span><svg class="ic" aria-hidden="true"><use href="/img/icons.svg#chevron-down"/></svg></button>
+          <div class="sub glass-2" id="sub-media">
+            <a href="{{L}}/yangiliklar" data-nav="/yangiliklar"><svg class="ic" aria-hidden="true"><use href="/img/icons.svg#news"/></svg><b data-i18n="nav.news">Yangiliklar</b><small data-i18n="nav.news_d">Universitet hayotidan</small></a>
+            <a href="{{L}}/galereya" data-nav="/galereya"><svg class="ic" aria-hidden="true"><use href="/img/icons.svg#image"/></svg><b data-i18n="nav.gallery">Galereya</b><small data-i18n="nav.gallery_d">Kampus va tadbirlar</small></a>
+            <a href="{{L}}/hikoyalar" data-nav="/hikoyalar"><svg class="ic" aria-hidden="true"><use href="/img/icons.svg#quote"/></svg><b data-i18n="nav.stories">Hikoyalar</b><small data-i18n="nav.stories_d">Startaplar va talabalar</small></a>
+            <!--if:has_youtube_url--><a href="{{set:youtube_url}}" target="_blank" rel="noopener"><svg class="ic" aria-hidden="true"><use href="/img/icons.svg#youtube"/></svg><b>YouTube</b><small data-i18n="nav.youtube_d">Video lavhalar</small></a><!--/if:has_youtube_url-->
+          </div>
+        </li>
+        <li><a class="nav-link" href="{{L}}/#aloqa"><span data-i18n="nav.contact">Aloqa</span></a></li>
+      </ul>
+    </nav>
+    <div class="head-tools">
+      <button class="tool" type="button" data-palette-open aria-label="Qidirish" data-i18n-attr="aria-label:ui.search"><svg class="ic" aria-hidden="true"><use href="/img/icons.svg#search"/></svg><kbd class="kbd-hint" aria-hidden="true">⌘K</kbd></button>
+      <nav class="lang" aria-label="Til" data-i18n-attr="aria-label:ui.language">
+        <a href="{{path}}" hreflang="uz" lang="uz"<!--if:lang_uz--> aria-current="true"<!--/if:lang_uz-->>UZ</a>
+        <a href="/ru{{path}}" hreflang="ru" lang="ru"<!--if:lang_ru--> aria-current="true"<!--/if:lang_ru-->>RU</a>
+        <a href="/en{{path}}" hreflang="en" lang="en"<!--if:lang_en--> aria-current="true"<!--/if:lang_en-->>EN</a>
+      </nav>
+      <button class="tool" type="button" popovertarget="prefs" aria-label="Ko‘rinish sozlamalari" data-i18n-attr="aria-label:ui.prefs"><svg class="ic" aria-hidden="true"><use href="/img/icons.svg#a11y"/></svg></button>
+      <!--if:has_admission_url--><a class="btn btn-primary btn-sm apply-btn" href="{{set:admission_url}}" target="_blank" rel="noopener" data-magnetic><span data-i18n="ui.apply">Hujjat topshirish</span></a><!--/if:has_admission_url-->
+      <button class="tool menu-btn" type="button" data-drawer-open aria-label="Menyu" aria-controls="drawer" data-i18n-attr="aria-label:ui.menu"><svg class="ic" aria-hidden="true"><use href="/img/icons.svg#menu"/></svg></button>
+    </div>
+  </div>
+</header>
+
+<dialog class="drawer" id="drawer" aria-label="Menyu" data-i18n-attr="aria-label:ui.menu">
+  <div class="drawer-in">
+    <div class="drawer-top">
+      <a class="brand" href="{{L}}/"><svg class="brand-logo" viewBox="0 0 1606 486" aria-hidden="true"><use href="/img/brand/ku-brand.svg#logo"/></svg><span class="sr-only">Kokand University</span></a>
+      <button class="icon-btn" type="button" data-drawer-close aria-label="Yopish" data-i18n-attr="aria-label:ui.close"><svg class="ic" aria-hidden="true"><use href="/img/icons.svg#close"/></svg></button>
+    </div>
+    <nav aria-label="Mobil menyu" data-i18n-attr="aria-label:ui.mobile_menu">
+      <ul>
+        <li><a href="{{L}}/universitet"><span data-i18n="nav.about">Biz haqimizda</span><svg class="ic" aria-hidden="true"><use href="/img/icons.svg#arrow-right"/></svg></a></li>
+        <li><a href="{{L}}/yonalishlar"><span data-i18n="nav.programmes">Yo‘nalishlar</span><svg class="ic" aria-hidden="true"><use href="/img/icons.svg#arrow-right"/></svg></a></li>
+        <li><a href="{{L}}/yangiliklar"><span data-i18n="nav.news">Yangiliklar</span><svg class="ic" aria-hidden="true"><use href="/img/icons.svg#arrow-right"/></svg></a></li>
+        <li><a href="{{L}}/hikoyalar"><span data-i18n="nav.stories">Hikoyalar</span><svg class="ic" aria-hidden="true"><use href="/img/icons.svg#arrow-right"/></svg></a></li>
+        <li><a href="{{L}}/galereya"><span data-i18n="nav.gallery">Galereya</span><svg class="ic" aria-hidden="true"><use href="/img/icons.svg#arrow-right"/></svg></a></li>
+        <li><a href="{{L}}/#aloqa" data-drawer-close><span data-i18n="nav.contact">Aloqa</span><svg class="ic" aria-hidden="true"><use href="/img/icons.svg#arrow-right"/></svg></a></li>
+      </ul>
+      <ul class="drawer-sub">
+        <!--if:has_structure_url--><li><a href="{{set:structure_url}}" target="_blank" rel="noopener"><span data-i18n="nav.structure">Tashkiliy tuzilma</span><svg class="ic" aria-hidden="true"><use href="/img/icons.svg#external"/></svg></a></li><!--/if:has_structure_url-->
+        <!--if:has_hemis_student_url--><li><a href="{{set:hemis_student_url}}" target="_blank" rel="noopener"><span data-i18n="svc.hemis_student">Talaba HEMIS</span><svg class="ic" aria-hidden="true"><use href="/img/icons.svg#external"/></svg></a></li><!--/if:has_hemis_student_url-->
+        <!--if:has_library_url--><li><a href="{{set:library_url}}" target="_blank" rel="noopener"><span data-i18n="svc.library">Elektron kutubxona</span><svg class="ic" aria-hidden="true"><use href="/img/icons.svg#external"/></svg></a></li><!--/if:has_library_url-->
+        <!--if:has_vacancies_url--><li><a href="{{set:vacancies_url}}" target="_blank" rel="noopener"><span data-i18n="nav.vacancies">Vakansiyalar</span><svg class="ic" aria-hidden="true"><use href="/img/icons.svg#external"/></svg></a></li><!--/if:has_vacancies_url-->
+      </ul>
+    </nav>
+    <div class="drawer-tools">
+      <nav class="lang" aria-label="Til" data-i18n-attr="aria-label:ui.language">
+        <a href="{{path}}" hreflang="uz" lang="uz"<!--if:lang_uz--> aria-current="true"<!--/if:lang_uz-->>UZ</a>
+        <a href="/ru{{path}}" hreflang="ru" lang="ru"<!--if:lang_ru--> aria-current="true"<!--/if:lang_ru-->>RU</a>
+        <a href="/en{{path}}" hreflang="en" lang="en"<!--if:lang_en--> aria-current="true"<!--/if:lang_en-->>EN</a>
+      </nav>
+      <button class="tool" type="button" popovertarget="prefs"><svg class="ic" aria-hidden="true"><use href="/img/icons.svg#a11y"/></svg><span data-i18n="ui.prefs">Ko‘rinish sozlamalari</span></button>
+      <!--if:has_admission_url--><a class="btn btn-primary" href="{{set:admission_url}}" target="_blank" rel="noopener"><svg class="ic" aria-hidden="true"><use href="/img/icons.svg#grad"/></svg><span data-i18n="ui.apply">Hujjat topshirish</span></a><!--/if:has_admission_url-->
+    </div>
+  </div>
+</dialog>
+
+<div class="prefs" id="prefs" popover aria-label="Ko‘rinish sozlamalari" data-i18n-attr="aria-label:ui.prefs">
+  <h2 data-i18n="ui.prefs">Ko‘rinish sozlamalari</h2>
+  <div class="pref-row"><span data-i18n="ui.theme">Mavzu</span>
+    <div class="seg" role="group" data-pref="theme">
+      <button type="button" data-v="auto"><svg class="ic" aria-hidden="true"><use href="/img/icons.svg#auto"/></svg><span data-i18n="ui.theme_auto">Avto</span></button>
+      <button type="button" data-v="light"><svg class="ic" aria-hidden="true"><use href="/img/icons.svg#sun"/></svg><span data-i18n="ui.theme_light">Yorug‘</span></button>
+      <button type="button" data-v="dark"><svg class="ic" aria-hidden="true"><use href="/img/icons.svg#moon"/></svg><span data-i18n="ui.theme_dark">Tungi</span></button>
+    </div>
+  </div>
+  <div class="pref-row"><span data-i18n="ui.contrast">Kontrast</span>
+    <div class="seg" role="group" data-pref="contrast">
+      <button type="button" data-v="normal"><span data-i18n="ui.normal">Oddiy</span></button>
+      <button type="button" data-v="high"><svg class="ic" aria-hidden="true"><use href="/img/icons.svg#contrast"/></svg><span data-i18n="ui.high">Yuqori</span></button>
+    </div>
+  </div>
+  <div class="pref-row"><span data-i18n="ui.motion">Animatsiya</span>
+    <div class="seg" role="group" data-pref="motion">
+      <button type="button" data-v="full"><svg class="ic" aria-hidden="true"><use href="/img/icons.svg#sparkles"/></svg><span data-i18n="ui.motion_full">Yoqilgan</span></button>
+      <button type="button" data-v="calm"><svg class="ic" aria-hidden="true"><use href="/img/icons.svg#wind"/></svg><span data-i18n="ui.motion_calm">Tinch</span></button>
+    </div>
+  </div>
+  <div class="pref-row"><span data-i18n="ui.text_size">Matn o‘lchami</span>
+    <div class="fs-ctl">
+      <button class="icon-btn" type="button" data-fs="-1" aria-label="Kichikroq" data-i18n-attr="aria-label:ui.smaller"><svg class="ic" aria-hidden="true"><use href="/img/icons.svg#minus"/></svg></button>
+      <output data-fs-out>100%</output>
+      <button class="icon-btn" type="button" data-fs="1" aria-label="Kattaroq" data-i18n-attr="aria-label:ui.bigger"><svg class="ic" aria-hidden="true"><use href="/img/icons.svg#plus"/></svg></button>
+    </div>
+  </div>
+  <button class="btn btn-ghost btn-sm install-tip" type="button" data-install><svg class="ic" aria-hidden="true"><use href="/img/icons.svg#phone-app"/></svg><span data-i18n="ui.install">Telefonga o‘rnatish</span></button>
+</div>

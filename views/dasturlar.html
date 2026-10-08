@@ -1,0 +1,75 @@
+<!--#include "partials/head.html"-->
+<body>
+<!--#include "partials/header.html"-->
+<main id="main">
+<!--if:detail--><!--slot:detail--><!--/if:detail-->
+<!--if:list-->
+<section class="page-hero" data-cms-section="Yo‘nalishlar · Hero" aria-labelledby="cat-title">
+  <div class="hero-bg" aria-hidden="true"><i class="aur h1a"></i><i class="aur h2a"></i><i class="aur h3a"></i><i class="tiles"></i><i class="grain"></i></div>
+  <div class="wrap page-hero-in">
+    <nav class="crumbs" aria-label="Yo‘l" data-i18n-attr="aria-label:ui.breadcrumbs"><a href="{{L}}/" data-i18n="nav.home">Bosh sahifa</a><span aria-hidden="true">/</span><span data-i18n="nav.programmes">Yo‘nalishlar</span></nav>
+    <p class="eyebrow" data-cms-id="prog.eyebrow" data-cms-type="text">Ta’lim yo‘nalishlari</p>
+    <h1 class="h1 reveal-words" id="cat-title" data-split><span data-cms-id="prog.t1" data-cms-type="text">Yo‘nalishingizni</span> <em data-cms-id="prog.t2" data-cms-type="text">toping</em></h1>
+    <p class="lead" data-cms-id="prog.lead" data-cms-type="text">Bakalavriat va magistratura yo‘nalishlari, ta’lim shakllari va 2026/2027 o‘quv yili uchun kontrakt narxlari. Yo‘nalishlarni solishtiring yoki qisqa test orqali o‘zingizga mosini toping.</p>
+    <div class="page-hero-stats">
+      <span class="badge"><svg class="ic" aria-hidden="true"><use href="/img/icons.svg#grad"/></svg><b><!--slot:count--></b> <span data-i18n="prog.count_l">ta dastur</span></span>
+      <button class="badge" type="button" data-quiz-open><svg class="ic" aria-hidden="true"><use href="/img/icons.svg#compass"/></svg><span data-i18n="home.quiz_btn">Test: qaysi yo‘nalish mos?</span></button>
+    </div>
+  </div>
+</section>
+
+<section class="sec-tight" id="katalog" aria-label="Katalog" data-i18n-attr="aria-label:prog.catalog">
+  <div class="wrap">
+    <div class="toolbar glass-2" data-filters>
+      <div class="toolbar-row">
+        <label class="field">
+          <svg class="ic" aria-hidden="true"><use href="/img/icons.svg#search"/></svg>
+          <span class="sr-only" data-i18n="prog.search">Yo‘nalish nomi yoki kodi</span>
+          <input class="input" type="search" data-f-search placeholder="Yo‘nalish nomi yoki kodi…" data-i18n-attr="placeholder:prog.search_ph">
+        </label>
+        <div class="seg" role="group" aria-label="Daraja" data-i18n-attr="aria-label:ui.level" data-f-level>
+          <button type="button" data-v="" aria-pressed="true" data-i18n="ui.all">Hammasi</button>
+          <button type="button" data-v="bakalavr" aria-pressed="false" data-i18n="level.bachelor">Bakalavriat</button>
+          <button type="button" data-v="magistr" aria-pressed="false" data-i18n="level.master">Magistratura</button>
+        </div>
+        <label><span class="sr-only" data-i18n="prog.sort">Saralash</span>
+          <select class="select" data-f-sort>
+            <option value="default" data-i18n="prog.sort_default">Tavsiya etilgan</option>
+            <option value="title" data-i18n="prog.sort_title">Nomi (A–Z)</option>
+            <option value="price-asc" data-i18n="prog.sort_price_asc">Narx: arzonidan</option>
+            <option value="price-desc" data-i18n="prog.sort_price_desc">Narx: qimmatidan</option>
+          </select>
+        </label>
+      </div>
+      <div class="toolbar-row">
+        <div class="chips-scroll" data-f-forms>
+          <button class="chip-btn" type="button" data-filter-form="form.day" aria-pressed="false"><span data-i18n="form.day">Kunduzgi</span></button>
+          <button class="chip-btn" type="button" data-filter-form="form.distance" aria-pressed="false"><span data-i18n="form.distance">Masofaviy</span></button>
+          <span aria-hidden="true" style="width:1px;background:var(--line-strong);margin:0 .3rem"></span>
+          <!--slot:field-chips-->
+        </div>
+      </div>
+    </div>
+    <p class="result-line"><span data-result-line><span data-i18n="prog.shown">Ko‘rsatilmoqda</span>: <b data-result-n><!--slot:count--></b></span><span class="src" data-i18n="prog.compare_hint">“Solishtirish” tugmasi bilan 3 tagacha yo‘nalishni taqqoslang</span></p>
+    <div class="grid g-3 cards" data-catalog><!--slot:catalog--></div>
+    <p class="empty" data-empty hidden data-i18n="ui.no_results">Hech narsa topilmadi. Filtrlarni o‘zgartirib ko‘ring.</p>
+    <p class="src" style="margin-top:1.6rem" data-cms-id="prog.src" data-cms-type="text">Narxlar manbasi: kokanduni.uz/specializations (2026-yil oktabr). Yakuniy shartlar qabul platformasida e’lon qilinadi.</p>
+  </div>
+</section>
+
+<div class="cmp-tray glass-2" data-cmp-tray>
+  <span class="n"><b data-cmp-n>0</b>/3 <span data-i18n="prog.selected">tanlandi</span></span>
+  <button class="btn btn-ghost btn-sm" type="button" data-cmp-clear data-i18n="ui.compare_clear">Tozalash</button>
+  <button class="btn btn-accent btn-sm" type="button" data-cmp-open><svg class="ic" aria-hidden="true"><use href="/img/icons.svg#scale"/></svg><span data-i18n="ui.compare">Solishtirish</span></button>
+</div>
+<dialog class="cmp-dialog" id="cmp" aria-labelledby="cmp-title">
+  <div class="dlg-head"><b class="h4" id="cmp-title" data-i18n="ui.compare_title">Yo‘nalishlarni solishtirish</b><button class="icon-btn" type="button" data-cmp-close aria-label="Yopish" data-i18n-attr="aria-label:ui.close"><svg class="ic" aria-hidden="true"><use href="/img/icons.svg#close"/></svg></button></div>
+  <div class="cmp-table-wrap" data-cmp-body></div>
+</dialog>
+<!--/if:list-->
+
+<dialog class="quiz" id="quiz" aria-labelledby="quiz-title">
+  <div class="dlg-head"><b id="quiz-title" class="h4" data-i18n="quiz.title">Yo‘nalish tanlash testi</b><button class="icon-btn" type="button" data-quiz-close aria-label="Yopish" data-i18n-attr="aria-label:ui.close"><svg class="ic" aria-hidden="true"><use href="/img/icons.svg#close"/></svg></button></div>
+  <div class="quiz-body" data-quiz-body></div>
+</dialog>
+<!--#include "partials/footer.html"-->

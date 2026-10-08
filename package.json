@@ -1,0 +1,25 @@
+{
+  "name": "kokand-university",
+  "version": "3.0.0",
+  "private": true,
+  "description": "Kokand University — rasmiy sayt va CMS (2027 tahriri): SSR, uch til, admin panel",
+  "main": "server.js",
+  "engines": {
+    "node": ">=22"
+  },
+  "scripts": {
+    "start": "SITE_PROFILE=university node server.js",
+    "dev": "node server.js",
+    "test": "node --test",
+    "lint": "eslint .",
+    "manifest": "node tools/build-manifest.js",
+    "check": "node tools/build-manifest.js --check && eslint . && node --test",
+    "build:sites": "node tools/build-sites.js"
+  },
+  "dependencies": {
+    "pg": "^8.11.5"
+  },
+  "devDependencies": {
+    "eslint": "^9.9.0"
+  }
+}

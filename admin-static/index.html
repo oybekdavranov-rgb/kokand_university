@@ -1,0 +1,242 @@
+<!DOCTYPE html>
+<html lang="uz">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="robots" content="noindex, nofollow">
+  <meta name="theme-color" content="#0A143D">
+  <title>Boshqaruv paneli — Kokand University CMS</title>
+  <link rel="icon" href="/favicon.svg" type="image/svg+xml">
+  <link rel="preload" href="/fonts/2027/onest-latin-wght-normal.woff2" as="font" type="font/woff2" crossorigin>
+  <link rel="stylesheet" href="/admin-static/admin.css?v=2027.4">
+</head>
+<body>
+  <div class="app-shell">
+    <aside class="sidebar" id="sidebar" aria-label="Boshqaruv menyusi">
+      <a class="brand" href="#dashboard" data-view="dashboard">
+        <img class="brand-mark" src="/img/brand/ku-mark-white.svg" alt="" width="40" height="40">
+        <span class="brand-name"><b>Kokand University</b><small id="brandPill">Boshqaruv paneli · CMS</small></span>
+      </a>
+
+      <div class="who">
+        <span class="avatar" id="avatar" aria-hidden="true">K</span>
+        <span class="who-text">
+          <b id="userInfo">…</b>
+          <span id="roleBadge" class="role-badge"></span>
+        </span>
+      </div>
+
+      <nav class="sidebar-nav" id="sideNav">
+        <button class="nav-btn" data-view="dashboard"><svg class="ic" aria-hidden="true"><use href="/img/icons.svg#home"/></svg><span>Bosh panel</span></button>
+
+        <div class="nav-group">Sayt kontenti</div>
+        <button class="nav-btn" data-view="content"><svg class="ic" aria-hidden="true"><use href="/img/icons.svg#type"/></svg><span>Sahifa matnlari</span></button>
+        <button class="nav-btn" data-view="programmes"><svg class="ic" aria-hidden="true"><use href="/img/icons.svg#grad"/></svg><span>Yo‘nalishlar</span><span class="count" data-count="programmes"></span></button>
+        <button class="nav-btn" data-view="news"><svg class="ic" aria-hidden="true"><use href="/img/icons.svg#news"/></svg><span>Yangiliklar</span><span class="count" data-count="news"></span></button>
+        <button class="nav-btn" data-view="stories"><svg class="ic" aria-hidden="true"><use href="/img/icons.svg#quote"/></svg><span>Hikoyalar</span><span class="count" data-count="stories"></span></button>
+        <button class="nav-btn" data-view="achievements"><svg class="ic" aria-hidden="true"><use href="/img/icons.svg#rocket"/></svg><span>Startaplar</span><span class="count" data-count="achievements"></span></button>
+        <button class="nav-btn" data-view="distinctions"><svg class="ic" aria-hidden="true"><use href="/img/icons.svg#star"/></svg><span>Nega aynan KU</span><span class="count" data-count="distinctions"></span></button>
+        <button class="nav-btn" data-view="interests"><svg class="ic" aria-hidden="true"><use href="/img/icons.svg#link"/></svg><span>Foydali havolalar</span><span class="count" data-count="interests"></span></button>
+        <button class="nav-btn" data-view="gallery"><svg class="ic" aria-hidden="true"><use href="/img/icons.svg#image"/></svg><span>Galereya</span><span class="count" data-count="gallery"></span></button>
+
+        <div class="nav-group">Talabalar shaharchasi</div>
+        <button class="nav-btn" data-view="residences"><svg class="ic" aria-hidden="true"><use href="/img/icons.svg#building"/></svg><span>Turar joylar</span><span class="count" data-count="residences"></span></button>
+        <button class="nav-btn" data-view="castle_pages"><svg class="ic" aria-hidden="true"><use href="/img/icons.svg#file"/></svg><span>Shaharcha sahifalari</span><span class="count" data-count="castle_pages"></span></button>
+        <button class="nav-btn staff-only" data-view="applications"><svg class="ic" aria-hidden="true"><use href="/img/icons.svg#mail"/></svg><span>Arizalar</span><span class="count" data-count="applications"></span></button>
+
+        <div class="nav-group">Tizim</div>
+        <button class="nav-btn" data-view="files"><svg class="ic" aria-hidden="true"><use href="/img/icons.svg#layers"/></svg><span>Fayllar</span><span class="count" data-count="files"></span></button>
+        <button class="nav-btn staff-only" data-view="sitesettings"><svg class="ic" aria-hidden="true"><use href="/img/icons.svg#compass"/></svg><span>Sayt sozlamalari</span></button>
+        <button class="nav-btn staff-only" data-view="users"><svg class="ic" aria-hidden="true"><use href="/img/icons.svg#users"/></svg><span>Adminlar</span></button>
+        <button class="nav-btn" data-view="account"><svg class="ic" aria-hidden="true"><use href="/img/icons.svg#shield"/></svg><span>Mening hisobim</span></button>
+      </nav>
+
+      <div class="sidebar-footer">
+        <a class="nav-btn" href="/" target="_blank" rel="noopener"><svg class="ic" aria-hidden="true"><use href="/img/icons.svg#external"/></svg><span>Saytni ochish</span></a>
+        <button id="logoutBtn" class="nav-btn" type="button"><svg class="ic" aria-hidden="true"><use href="/img/icons.svg#arrow-left"/></svg><span>Chiqish</span></button>
+      </div>
+    </aside>
+
+    <main class="main-panel" id="main">
+      <header class="topbar">
+        <button class="btn btn-ghost btn-sm menu-toggle" id="menuToggle" type="button" aria-controls="sidebar" aria-expanded="false"><svg class="ic" aria-hidden="true"><use href="/img/icons.svg#menu"/></svg><span class="sr-only">Menyu</span></button>
+        <div class="topbar-title">
+          <div class="crumbs" id="viewCrumbs">Kokand University CMS</div>
+          <h1 id="viewTitle">Bosh panel</h1>
+        </div>
+        <div class="topbar-actions">
+          <div class="lang-open" aria-label="Saytni tanlangan tilda ochish">
+            <a id="openUz" href="/" target="_blank" rel="noopener" title="O‘zbekcha">UZ</a>
+            <a id="openRu" href="/ru/" target="_blank" rel="noopener" title="Русский">RU</a>
+            <a id="openEn" href="/en/" target="_blank" rel="noopener" title="English">EN</a>
+          </div>
+        </div>
+      </header>
+
+      <div class="content">
+        <!-- BOSH PANEL -->
+        <section id="view-dashboard" class="view" aria-labelledby="viewTitle">
+          <div class="hero-card">
+            <h2 id="helloTitle">Xush kelibsiz!</h2>
+            <p>Saytning barcha matnlari, yo‘nalishlar katalogi, yangiliklar, galereya va sozlamalar shu yerdan boshqariladi. O‘zbekcha kiritgan matningiz rus va ingliz tillariga avtomatik tarjima qilinadi — kerak bo‘lsa tarjimani qo‘lda tuzatishingiz mumkin.</p>
+            <div class="form-actions">
+              <button class="btn btn-primary" type="button" data-go="news:new"><svg class="ic" aria-hidden="true"><use href="/img/icons.svg#plus"/></svg>Yangilik qo‘shish</button>
+              <button class="btn" type="button" data-go="content"><svg class="ic" aria-hidden="true"><use href="/img/icons.svg#type"/></svg>Sahifa matnlarini tahrirlash</button>
+              <a class="btn" href="/" target="_blank" rel="noopener"><svg class="ic" aria-hidden="true"><use href="/img/icons.svg#external"/></svg>Saytni ko‘rish</a>
+            </div>
+          </div>
+
+          <div class="kpis" id="kpis"></div>
+
+          <div class="dash-grid">
+            <section class="card">
+              <div class="card-header"><h2><svg class="ic" aria-hidden="true"><use href="/img/icons.svg#compass"/></svg>Qayerdan boshlayman?</h2></div>
+              <ol class="guide-list">
+                <li><span><b>Sahifa matnlari</b> — saytdagi tayyor sarlavha, matn va rasmlar. Sahifa bo‘yicha filtrlang, elementni tanlang, o‘zbekcha matnni yozing. RU/EN yorliqlarida tarjimani ko‘ring yoki tuzating.</span></li>
+                <li><span><b>Yo‘nalishlar</b> — ta’lim yo‘nalishlari katalogi: shifr, ta’lim shakllari, kontrakt narxlari, asosiy fanlar va savol-javoblar. Har bir yo‘nalishning alohida sahifasi bor.</span></li>
+                <li><span><b>Yangiliklar va Hikoyalar</b> — “+ Yangi” tugmasi bilan qo‘shasiz. Sana, rasm, qisqa va to‘liq matn. Saqlangach saytda darhol ko‘rinadi.</span></li>
+                <li><span><b>Fayllar</b> — rasm va videolarni yuklash. Istalgan rasm maydonidagi “Yuklash” tugmasi ham shu kutubxonaga qo‘shadi.</span></li>
+                <li class="staff-only"><span><b>Sayt sozlamalari</b> — telefonlar, manzil, ijtimoiy tarmoqlar va universitet xizmatlari havolalari (qabul, HEMIS, kutubxona…). Menyu va pastki qismdagi havolalar shu yerdan boshqariladi.</span></li>
+              </ol>
+            </section>
+            <section class="card">
+              <div class="card-header"><h2><svg class="ic" aria-hidden="true"><use href="/img/icons.svg#lightbulb"/></svg>Foydali maslahatlar</h2></div>
+              <ul class="tips">
+                <li><svg class="ic" aria-hidden="true"><use href="/img/icons.svg#check"/></svg><span>Matnda <code>**qalin**</code> yozuvi qalin shriftga aylanadi, bo‘sh qator — yangi xatboshi.</span></li>
+                <li><svg class="ic" aria-hidden="true"><use href="/img/icons.svg#check"/></svg><span>Savol-javob maydonlarida har qatorga <code>Savol :: Javob</code> ko‘rinishida yozing.</span></li>
+                <li><svg class="ic" aria-hidden="true"><use href="/img/icons.svg#check"/></svg><span>Rasmlar uchun 1600px atrofidagi JPG/WebP tavsiya etiladi — sayt tez ochiladi.</span></li>
+                <li><svg class="ic" aria-hidden="true"><use href="/img/icons.svg#check"/></svg><span>“Asl holatga qaytarish” — elementni saytning standart matniga qaytaradi.</span></li>
+                <li><svg class="ic" aria-hidden="true"><use href="/img/icons.svg#check"/></svg><span>Birinchi kirishdan so‘ng <b>Mening hisobim</b> bo‘limida parolni albatta almashtiring.</span></li>
+              </ul>
+              <div class="card-header" style="margin-top:20px"><h2><svg class="ic" aria-hidden="true"><use href="/img/icons.svg#clock"/></svg>So‘nggi o‘zgarishlar</h2></div>
+              <ul class="recent" id="recentList"><li class="muted">Yuklanmoqda…</li></ul>
+            </section>
+          </div>
+        </section>
+
+        <!-- SAHIFA MATNLARI (CMS elementlari) -->
+        <section id="view-content" class="view">
+          <div class="help-box"><svg class="ic" aria-hidden="true"><use href="/img/icons.svg#lightbulb"/></svg><div><b>Sahifa matnlari.</b> Saytdagi tayyor sarlavha, matn va rasmlar. Chapdan elementni tanlang (sahifa yoki qidiruv bo‘yicha toping) → o‘zbekcha matnni yozing → <b>Saqlash</b>. <b>RU</b> va <b>EN</b> yorliqlarida tarjima: bo‘sh qoldirsangiz — avtomatik tarjima qilinadi.</div></div>
+          <div class="toolbar">
+            <label class="search grow"><svg class="ic" aria-hidden="true"><use href="/img/icons.svg#search"/></svg><span class="sr-only">Qidirish</span><input id="searchInput" type="search" placeholder="Matn bo‘yicha qidirish (masalan: Qabul, kampus)…" autocomplete="off"></label>
+            <label><span class="sr-only">Sahifa</span><select id="pageFilter"><option value="all">Barcha sahifalar</option></select></label>
+            <label><span class="sr-only">Turi</span><select id="typeFilter">
+              <option value="all">Barcha turlar</option>
+              <option value="text">Matn</option>
+              <option value="image">Rasm</option>
+              <option value="video">Video (orqa fon)</option>
+              <option value="changed">Faqat o‘zgartirilganlar</option>
+            </select></label>
+          </div>
+          <div class="split">
+            <section class="card list-card" aria-label="Elementlar ro‘yxati">
+              <div class="list-head"><h2>Elementlar</h2><span id="listCount" class="badge"></span></div>
+              <div id="elementList" class="item-list" role="listbox" aria-label="Tahrirlanadigan elementlar"></div>
+            </section>
+            <section class="card editor-card" id="editorPane" aria-live="polite">
+              <div class="empty-state"><svg class="ic" aria-hidden="true"><use href="/img/icons.svg#type"/></svg>Chap tomondan element tanlang.</div>
+            </section>
+          </div>
+        </section>
+
+        <!-- TO'PLAMLAR (yo'nalishlar, yangiliklar, ...) — admin.js to'ldiradi -->
+        <section id="view-collection" class="view">
+          <div class="help-box" id="collectionHelp"></div>
+          <div class="toolbar">
+            <label class="search grow"><svg class="ic" aria-hidden="true"><use href="/img/icons.svg#search"/></svg><span class="sr-only">Qidirish</span><input id="collectionSearch" type="search" placeholder="Ro‘yxatdan qidirish…" autocomplete="off"></label>
+            <a class="btn" id="collectionCsv" href="/api/admin/applications.csv" download hidden><svg class="ic" aria-hidden="true"><use href="/img/icons.svg#download"/></svg>Excel (CSV)</a>
+            <button class="btn btn-primary" type="button" id="collectionNew"><svg class="ic" aria-hidden="true"><use href="/img/icons.svg#plus"/></svg><span>Yangi qo‘shish</span></button>
+          </div>
+          <div class="split">
+            <section class="card list-card" aria-label="Yozuvlar ro‘yxati">
+              <div class="list-head"><h2 id="collectionListTitle">Yozuvlar</h2><span id="collectionCount" class="badge"></span></div>
+              <div id="collectionList" class="item-list"></div>
+            </section>
+            <section class="card editor-card" id="collectionForm" aria-live="polite"></section>
+          </div>
+        </section>
+
+        <!-- FAYLLAR -->
+        <section id="view-files" class="view">
+          <section class="card" style="margin-bottom:20px">
+            <form id="uploadForm">
+              <label class="dropzone" id="dropzone">
+                <svg class="ic" aria-hidden="true"><use href="/img/icons.svg#upload"/></svg>
+                <b>Faylni shu yerga tashlang yoki tanlash uchun bosing</b>
+                <span class="small">JPG, PNG, WebP, GIF, MP4, WebM, PDF · 50 MB gacha</span>
+                <input type="file" id="uploadInput" name="file" class="sr-only" accept=".jpg,.jpeg,.png,.webp,.gif,.mp4,.webm,.pdf">
+              </label>
+            </form>
+            <p id="uploadMessage" class="form-message" role="status"></p>
+          </section>
+          <section class="card">
+            <div class="card-header"><h2><svg class="ic" aria-hidden="true"><use href="/img/icons.svg#layers"/></svg>Fayl kutubxonasi</h2><span id="fileCount" class="badge"></span></div>
+            <div id="fileList" class="file-grid"></div>
+          </section>
+        </section>
+
+        <!-- SAYT SOZLAMALARI (staff) -->
+        <section id="view-sitesettings" class="view">
+          <div class="help-box"><svg class="ic" aria-hidden="true"><use href="/img/icons.svg#lightbulb"/></svg><div><b>Sayt sozlamalari.</b> Bu qiymatlar butun saytda ishlatiladi: menyu, pastki qism, aloqa sahifasi, qidiruv va yordamchi javoblari. Havolani bo‘sh qoldirsangiz — tegishli tugma saytda ko‘rinmaydi.</div></div>
+          <form id="siteSettingsForm" class="settings-grid" novalidate></form>
+          <section class="card" style="margin-top:18px">
+            <div class="card-header"><h2><svg class="ic" aria-hidden="true"><use href="/img/icons.svg#cpu"/></svg>Tizim holati</h2><span class="badge" id="diagBadge"></span></div>
+            <div id="diagBody" class="muted small">Yuklanmoqda…</div>
+          </section>
+          <section class="card" style="margin-top:18px">
+            <div class="card-header"><h2><svg class="ic" aria-hidden="true"><use href="/img/icons.svg#language"/></svg>Avtomatik tarjima</h2></div>
+            <p class="muted small" style="margin-top:0">O‘zbekcha kiritilgan matn rus va ingliz tillariga avtomatik tarjima qilinadi. Agar ba’zi yozuvlar tarjimasiz qolgan bo‘lsa (masalan, tarjima xizmati vaqtincha ishlamagan bo‘lsa) — quyidagi tugma yetishmayotganlarini to‘ldiradi. Qo‘lda tuzatilgan tarjimalar o‘zgarmaydi.</p>
+            <button type="button" id="retranslateBtn" class="btn"><svg class="ic" aria-hidden="true"><use href="/img/icons.svg#refresh"/></svg>Yetishmayotgan tarjimalarni to‘ldirish</button>
+            <p id="retranslateMessage" class="form-message" role="status"></p>
+          </section>
+        </section>
+
+        <!-- ADMINLAR (staff) -->
+        <section id="view-users" class="view">
+          <div class="split">
+            <section class="card list-card">
+              <div class="list-head"><h2>Adminlar</h2><span id="users-count" class="badge"></span></div>
+              <div id="users-list" class="item-list"></div>
+            </section>
+            <section class="card editor-card">
+              <div class="editor-head"><div><div class="crumbs">Adminlar</div><h2 id="user-form-title">Yangi admin qo‘shish</h2></div></div>
+              <form id="userForm" class="editor-body stack">
+                <input type="hidden" id="user-id">
+                <label class="field"><span>Email (login) <i class="req">*</i></span><input type="email" id="user-email" required autocomplete="off"></label>
+                <label class="field"><span>Parol</span><input type="text" id="user-password" placeholder="Kamida 8 belgi" autocomplete="new-password"><span class="hint">Tahrirlashda bo‘sh qoldirsangiz — parol o‘zgarmaydi.</span></label>
+                <label class="field"><span>Rol</span>
+                  <select id="user-role">
+                    <option value="editor">Editor — matn, rasm, yangiliklar</option>
+                    <option value="staff">Staff — to‘liq huquq (sozlamalar, adminlar, arizalar)</option>
+                  </select>
+                </label>
+                <div class="form-actions">
+                  <button type="submit" class="btn btn-primary"><svg class="ic" aria-hidden="true"><use href="/img/icons.svg#check"/></svg>Saqlash</button>
+                  <button type="button" id="userResetBtn" class="btn">Tozalash</button>
+                </div>
+                <p id="userMessage" class="form-message" role="status"></p>
+              </form>
+            </section>
+          </div>
+        </section>
+
+        <!-- MENING HISOBIM -->
+        <section id="view-account" class="view">
+          <section class="card" style="max-width:560px">
+            <div class="card-header"><h2><svg class="ic" aria-hidden="true"><use href="/img/icons.svg#shield"/></svg>Login va parol</h2></div>
+            <form id="settingsForm" class="stack">
+              <label class="field"><span>Joriy parol <i class="req">*</i></span><input type="password" id="currentPassword" required autocomplete="current-password"></label>
+              <label class="field"><span>Yangi email</span><input type="email" id="newEmail" placeholder="admin@kokanduni.uz" autocomplete="email"></label>
+              <label class="field"><span>Yangi parol</span><input type="password" id="newPassword" placeholder="Kamida 8 belgi" autocomplete="new-password"><span class="hint">Harf, raqam va belgilardan iborat uzun parol tanlang.</span></label>
+              <div class="form-actions"><button type="submit" class="btn btn-primary"><svg class="ic" aria-hidden="true"><use href="/img/icons.svg#check"/></svg>Saqlash</button></div>
+              <p id="settingsMessage" class="form-message" role="status"></p>
+            </form>
+          </section>
+        </section>
+      </div>
+    </main>
+  </div>
+  <div class="toasts" id="toasts" aria-live="polite"></div>
+  <script src="/admin-static/admin.js?v=2027.4" defer></script>
+</body>
+</html>

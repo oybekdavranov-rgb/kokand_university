@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="uz">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="robots" content="noindex, nofollow">
+  <meta name="theme-color" content="#0A143D">
+  <title>Kirish — Kokand University CMS</title>
+  <link rel="icon" href="/favicon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="/admin-static/admin.css?v=2027.4">
+</head>
+<body>
+  <div class="login-page">
+    <aside class="login-art" aria-hidden="true">
+      <img class="brand-mark" src="/img/brand/ku-mark-white.svg" alt="" width="64" height="64">
+      <div>
+        <h2>Kokand University boshqaruv paneli</h2>
+        <p>Sayt kontenti, yo‘nalishlar katalogi, yangiliklar va sozlamalar — bir joyda, uch tilda.</p>
+        <ul>
+          <li><svg class="ic"><use href="/img/icons.svg#language"/></svg>O‘zbekcha yozing — RU va EN avtomatik</li>
+          <li><svg class="ic"><use href="/img/icons.svg#shield"/></svg>Rollar, CSRF himoyasi va audit jurnali</li>
+          <li><svg class="ic"><use href="/img/icons.svg#sparkles"/></svg>O‘zgarish saytda darhol ko‘rinadi</li>
+        </ul>
+      </div>
+      <small style="color:rgba(255,255,255,.55)">© Kokand University</small>
+    </aside>
+    <main class="login-shell">
+      <section class="login-card">
+        <img src="/img/brand/ku-mark.svg" alt="Kokand University" width="48" height="48">
+        <h1>Panelga kirish</h1>
+        <p class="muted">Login va parolingizni kiriting.</p>
+        <form id="loginForm" class="stack">
+          <label class="field"><span>Email (login)</span>
+            <input type="email" id="email" placeholder="admin@kokanduni.uz" required autocomplete="username" autofocus>
+          </label>
+          <label class="field"><span>Parol</span>
+            <span class="pw-wrap">
+              <input type="password" id="password" placeholder="••••••••" required autocomplete="current-password">
+              <button class="pw-toggle" type="button" id="pwToggle" aria-label="Parolni ko‘rsatish" aria-pressed="false"><svg class="ic" aria-hidden="true"><use href="/img/icons.svg#eye"/></svg></button>
+            </span>
+          </label>
+          <button type="submit" class="btn btn-primary btn-block" id="loginBtn">Kirish</button>
+        </form>
+        <p id="loginMessage" class="form-message" role="alert" style="margin-top:12px"></p>
+        <div class="login-help">
+          <span><b>Editor</b> — sahifa matnlari, rasmlar, yangiliklar va yo‘nalishlar.</span>
+          <span><b>Staff</b> — hammasi + sozlamalar, adminlar, arizalar va video fon.</span>
+        </div>
+        <a href="/" class="subtle-link"><svg class="ic" aria-hidden="true"><use href="/img/icons.svg#arrow-left"/></svg>Saytga qaytish</a>
+      </section>
+    </main>
+  </div>
+  <script src="/admin-static/login.js?v=2027.2" defer></script>
+</body>
+</html>
