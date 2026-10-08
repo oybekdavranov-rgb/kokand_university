@@ -101,3 +101,8 @@ test('lug‘at: har bir kalitda ru va en bor (uz — shablonning o‘zida)', () 
   const missing = Object.entries(DICT).filter(([, v]) => !v || v.ru == null || v.en == null).map(([k]) => k);
   assert.deepStrictEqual(missing, []);
 });
+
+test('withReturningId: id ustunsiz jadvallarga (settings, overrides) oddiy INSERT da ham qo‘shmaydi', () => {
+  const q = 'INSERT INTO settings (key, value) VALUES ($1, $2)';
+  assert.strictEqual(withReturningId(q), q);
+});

@@ -16,9 +16,15 @@ function toPg(sql) {
  * `id` ustuni YO'Q — ularga RETURNING id qo'shilsa Postgres xato beradi.
  * Bu jadvallarga lastId kerak ham emas.
  */
+// `id` ustuni bo'lmagan jadvallar — ularga hech qachon RETURNING id qo'shilmaydi
+const NO_ID_TABLES = new Set(['settings', 'overrides']);
+
 function withReturningId(q) {
   const needs = /^\s*insert/i.test(q) && !/returning/i.test(q) && !/on\s+conflict/i.test(q);
-  return needs ? q + ' RETURNING id' : q;
+  if (!needs) return q;
+  const m = q.match(/^\s*insert\s+into\s+"?(\w+)"?/i);
+  if (m && NO_ID_TABLES.has(m[1].toLowerCase())) return q;
+  return q + ' RETURNING id';
 }
 
 module.exports = { toPg, withReturningId };
